@@ -1,0 +1,84 @@
+{
+  "num_status": 10,
+  "recent_status": [
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 status is occupied."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 status is occupied."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 status is occupied."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 status is occupied."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 status is occupied."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 status is occupied."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 status is occupied."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 status is occupied."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 status is occupied."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 status is occupied."
+    }
+  ],
+  "num_payment": 9,
+  "recent_payment": [
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 received payment of $24."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 received payment of $24."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 received payment of $24."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 received payment of $24."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 received payment of $24."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 received payment of $24."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 received payment of $24."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 received payment of $24."
+    },
+    {
+      "received_timestamp": "2024-08-29 12:09",
+      "msg_data": "Meter ID 12345 received payment of $24."
+    }
+  ]
+}
