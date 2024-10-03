@@ -3,11 +3,27 @@ from connexion import NoContent
 import json
 from datetime import datetime
 import os.path
-import requests  # Import requests to send HTTP requests
+import requests
+import yaml
+import logging.config 
+import logging
+import uuid
 
 MAX_EVENTS = 5
 EVENT_FILE = "events.json"
-STORAGE_SERVICE_URL = "http://localhost:8090"  # URL for the Storage Service
+STORAGE_SERVICE_URL = "http://localhost:8090"
+
+with open('app_conf.yml', 'r') as f:
+    app_config = yaml.safe_load(f.read())
+
+
+with open('log_conf.yml', 'r') as f:
+    log_config = yaml.safe_load(f.read())
+    logging.config.dictConfig(log_config)
+
+logger = logging.getLogger('basicLogger')
+
+#print(app_config['eventstore1']['url'])
 
 def log_data(event, event_type):
     provided_timestamp = event['timestamp']
@@ -50,24 +66,32 @@ def log_data(event, event_type):
         json.dump(old_data, file_write, indent=4)
 
 def parking_status(body):
-    #log_data(body, "status")
-    response = requests.post(f"{STORAGE_SERVICE_URL}/parking", json=body)
+    trace_id = str(uuid.uuid4())  # Generate unique trace ID
+    logger.info(f"Received event parking_status request with a trace id of {trace_id}")
+    
+    # Use the URL from the configuration file
+    response = requests.post(app_config['eventstore1']['url'], json=body, headers={"trace_id": trace_id})
     
     if response.status_code == 201:
+        logger.info(f"Returned event parking_status response (Id: {trace_id}) with status {response.status_code}")
         return NoContent, 201
     else:
-        print(f"Error in parking_status: {response.text}")  # Print error message
-        return NoContent, response.status_code  # Return the error status code if the call fails
+        logger.error(f"Error in parking_status: {response.text}")
+        return NoContent, response.status_code
 
 
 def payment(body):
-    #log_data(body, "payment")
-    response = requests.post(f"{STORAGE_SERVICE_URL}/payment", json=body)
+    trace_id = str(uuid.uuid4())  # Generate unique trace ID
+    logger.info(f"Received event payment request with a trace id of {trace_id}")
+    
+    # Use the URL from the configuration file
+    response = requests.post(app_config['eventstore2']['url'], json=body, headers={"trace_id": trace_id})
     
     if response.status_code == 201:
+        logger.info(f"Returned event payment response (Id: {trace_id}) with status {response.status_code}")
         return NoContent, 201
     else:
-        print(f"Error in payment: {response.text}")
+        logger.error(f"Error in payment: {response.text}")
         return NoContent, response.status_code
 
 

@@ -1,0 +1,5 @@
+version: 1
+eventstore1:
+  url: http://localhost:8090/parking
+eventstore2:
+  url: http://localhost:8090/payment
