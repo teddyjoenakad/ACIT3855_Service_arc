@@ -14,15 +14,18 @@ class PaymentEvent(Base):
     duration = Column(Integer, nullable=False)
     timestamp = Column(String(100), nullable=False)
     date_created = Column(DateTime, nullable=False)
+    trace_id = Column(String, nullable=False)
 
-    def __init__(self, meter_id, device_id, amount, duration, timestamp):
+
+    def __init__(self, meter_id, device_id, amount, duration, timestamp, trace_id):
         """ Initializes a payment event """
         self.meter_id = meter_id
         self.device_id = device_id
         self.amount = amount
         self.duration = duration
         self.timestamp = timestamp
-        self.date_created = now()  # Sets the date/time record is created
+        self.date_created = now()
+        self.trace_id = trace_id
 
     def to_dict(self):
         """ Dictionary Representation of a payment event """
@@ -33,5 +36,6 @@ class PaymentEvent(Base):
             'amount': self.amount,
             'duration': self.duration,
             'timestamp': self.timestamp,
-            'date_created': self.date_created
+            'date_created': self.date_created,
+            'trace_id': self.trace_id
         }

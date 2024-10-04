@@ -1,5 +1,4 @@
 openapi: 3.0.0
-servers: []
 info:
   description: This API receives events from parking meters in downtown Vancouver
   version: "1.0.0"
@@ -21,6 +20,11 @@ paths:
       summary: Reports the status of a parking spot (free or occupied)
       operationId: app.parking_status
       description: Adds a new parking status event to the system
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ParkingStatusEvent'
       responses:
         '201':
           description: event created
@@ -28,14 +32,7 @@ paths:
           description: 'invalid input, object invalid'
         '409':
           description: an existing event already exists
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/ParkingStatusEvent'
-        description: Parking status event data to add
-        
-        
+
   /payment:
     post:
       tags:
@@ -43,6 +40,11 @@ paths:
       summary: Reports a payment for a parking spot
       operationId: app.payment
       description: Adds a new payment event to the system
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PaymentEvent'
       responses:
         '201':
           description: event created
@@ -50,13 +52,7 @@ paths:
           description: 'invalid input, object invalid'
         '409':
           description: an existing event already exists
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/PaymentEvent'
-        description: Payment event data to add
-        
+
 components:
   schemas:
     ParkingStatusEvent:
@@ -67,6 +63,7 @@ components:
         - status
         - timestamp
         - spot_number
+        - trace_id
       properties:
         meter_id:
           type: integer
@@ -87,8 +84,10 @@ components:
         spot_number:
           type: integer
           example: 25
-      # type: object
-      
+        trace_id:
+          type: string
+          example: '123e4567-e89b-12d3-a456-426614174000'
+
     PaymentEvent:
       required:
         - meter_id
@@ -96,6 +95,7 @@ components:
         - amount
         - timestamp
         - duration
+        - trace_id
       properties:
         meter_id:
           type: integer
@@ -117,4 +117,6 @@ components:
           type: integer
           description: Duration of parking in minutes
           example: 60
-      type: object
+        trace_id:
+          type: string
+          example: '123e4567-e89b-12d3-a456-426614174000'

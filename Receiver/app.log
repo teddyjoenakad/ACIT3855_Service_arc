@@ -1,0 +1,200 @@
+2024-10-03 12:16:09,435 - basicLogger - INFO - Received event parking_status request with a trace id of 7fcc606a-d76e-497a-aa3c-50a1e6189cbf
+2024-10-03 12:16:09,510 - basicLogger - INFO - Returned event parking_status response (Id: 7fcc606a-d76e-497a-aa3c-50a1e6189cbf) with status 201
+2024-10-03 12:16:09,526 - basicLogger - INFO - Received event payment request with a trace id of d86ca74e-3928-4ccb-a825-8587388f7974
+2024-10-03 12:16:09,566 - basicLogger - INFO - Returned event payment response (Id: d86ca74e-3928-4ccb-a825-8587388f7974) with status 201
+2024-10-03 12:16:09,615 - basicLogger - INFO - Received event parking_status request with a trace id of 838b5a17-3cf9-4775-8324-cf3ee07e0550
+2024-10-03 12:16:09,617 - basicLogger - INFO - Received event parking_status request with a trace id of 782bade8-5d22-4f58-97fe-640df9ac2933
+2024-10-03 12:16:09,661 - basicLogger - INFO - Returned event parking_status response (Id: 782bade8-5d22-4f58-97fe-640df9ac2933) with status 201
+2024-10-03 12:16:09,669 - basicLogger - INFO - Returned event parking_status response (Id: 838b5a17-3cf9-4775-8324-cf3ee07e0550) with status 201
+2024-10-03 12:16:09,676 - basicLogger - INFO - Received event payment request with a trace id of 5cdfc782-3c5b-4f67-a31c-575d50896551
+2024-10-03 12:16:09,694 - basicLogger - INFO - Received event payment request with a trace id of ec6d747d-011c-4051-b8c0-64ce670b8358
+2024-10-03 12:16:09,717 - basicLogger - INFO - Returned event payment response (Id: 5cdfc782-3c5b-4f67-a31c-575d50896551) with status 201
+2024-10-03 12:16:09,725 - basicLogger - INFO - Returned event payment response (Id: ec6d747d-011c-4051-b8c0-64ce670b8358) with status 201
+2024-10-03 12:16:09,734 - basicLogger - INFO - Received event parking_status request with a trace id of 3844918e-91b3-485b-a2a4-4da86aa32701
+2024-10-03 12:16:09,746 - basicLogger - INFO - Received event parking_status request with a trace id of d01188ec-444c-4fa5-8b57-8bf078d38472
+2024-10-03 12:16:09,780 - basicLogger - INFO - Returned event parking_status response (Id: 3844918e-91b3-485b-a2a4-4da86aa32701) with status 201
+2024-10-03 12:16:09,788 - basicLogger - INFO - Returned event parking_status response (Id: d01188ec-444c-4fa5-8b57-8bf078d38472) with status 201
+2024-10-03 12:16:09,803 - basicLogger - INFO - Received event payment request with a trace id of 065573e3-018e-4cc0-b83f-a75a233272f9
+2024-10-03 12:16:09,822 - basicLogger - INFO - Received event payment request with a trace id of 6208e6bc-488b-4aef-a910-109c6fcb1598
+2024-10-03 12:16:09,828 - basicLogger - INFO - Received event parking_status request with a trace id of 3a32523c-1775-4e23-b2ee-1e147df4fe35
+2024-10-03 12:16:09,871 - basicLogger - INFO - Returned event payment response (Id: 065573e3-018e-4cc0-b83f-a75a233272f9) with status 201
+2024-10-03 12:16:09,882 - basicLogger - INFO - Returned event parking_status response (Id: 3a32523c-1775-4e23-b2ee-1e147df4fe35) with status 201
+2024-10-03 12:16:09,898 - basicLogger - INFO - Received event parking_status request with a trace id of ac3847e7-ba19-4d36-a344-3051e6aeaa38
+2024-10-03 12:16:09,903 - basicLogger - INFO - Returned event payment response (Id: 6208e6bc-488b-4aef-a910-109c6fcb1598) with status 201
+2024-10-03 12:16:09,920 - basicLogger - INFO - Received event payment request with a trace id of ebcbc3ca-f59b-43c0-95b0-6a7ae784bcc2
+2024-10-03 12:16:09,939 - basicLogger - INFO - Received event parking_status request with a trace id of f4e298c8-2d46-4b0f-8f20-ca760869c439
+2024-10-03 12:16:09,989 - basicLogger - INFO - Returned event parking_status response (Id: ac3847e7-ba19-4d36-a344-3051e6aeaa38) with status 201
+2024-10-03 12:16:09,994 - basicLogger - INFO - Returned event parking_status response (Id: f4e298c8-2d46-4b0f-8f20-ca760869c439) with status 201
+2024-10-03 12:16:09,999 - basicLogger - INFO - Returned event payment response (Id: ebcbc3ca-f59b-43c0-95b0-6a7ae784bcc2) with status 201
+2024-10-03 12:16:10,022 - basicLogger - INFO - Received event payment request with a trace id of e5faa88d-00f4-49ec-b11b-f82597459481
+2024-10-03 12:16:10,037 - basicLogger - INFO - Received event parking_status request with a trace id of e0fd0305-6210-44ab-91ac-e8d928148073
+2024-10-03 12:16:10,051 - basicLogger - INFO - Received event payment request with a trace id of 303794fd-8414-4f50-a8b4-e8bbb35c36e8
+2024-10-03 12:16:10,060 - basicLogger - INFO - Received event parking_status request with a trace id of 18350e13-69d0-41dc-b3e5-4790e316076e
+2024-10-03 12:16:10,115 - basicLogger - INFO - Returned event parking_status response (Id: e0fd0305-6210-44ab-91ac-e8d928148073) with status 201
+2024-10-03 12:16:10,123 - basicLogger - INFO - Returned event payment response (Id: e5faa88d-00f4-49ec-b11b-f82597459481) with status 201
+2024-10-03 12:16:10,133 - basicLogger - INFO - Received event payment request with a trace id of efb32285-8ba1-4b6e-b1cb-4b3a536bc47d
+2024-10-03 12:16:10,140 - basicLogger - INFO - Returned event parking_status response (Id: 18350e13-69d0-41dc-b3e5-4790e316076e) with status 201
+2024-10-03 12:16:10,141 - basicLogger - INFO - Returned event payment response (Id: 303794fd-8414-4f50-a8b4-e8bbb35c36e8) with status 201
+2024-10-03 12:16:10,164 - basicLogger - INFO - Received event parking_status request with a trace id of 3f38ebf2-5fc5-4ba9-b358-385a666ed771
+2024-10-03 12:16:10,183 - basicLogger - INFO - Received event payment request with a trace id of 6947860a-3101-4c93-a29a-a1d0c320afa2
+2024-10-03 12:16:10,186 - basicLogger - INFO - Received event parking_status request with a trace id of 3db293ff-e15a-4939-8ada-96aac661e79c
+2024-10-03 12:16:10,203 - basicLogger - INFO - Returned event payment response (Id: efb32285-8ba1-4b6e-b1cb-4b3a536bc47d) with status 201
+2024-10-03 12:16:10,217 - basicLogger - INFO - Received event parking_status request with a trace id of 690800ef-ca24-4ab7-901c-5081f91f3bb4
+2024-10-03 12:16:10,236 - basicLogger - INFO - Received event parking_status request with a trace id of d2b6464a-e3f6-4210-abd3-a3a9c0a045ea
+2024-10-03 12:16:10,266 - basicLogger - INFO - Returned event parking_status response (Id: 3f38ebf2-5fc5-4ba9-b358-385a666ed771) with status 201
+2024-10-03 12:16:10,278 - basicLogger - INFO - Returned event payment response (Id: 6947860a-3101-4c93-a29a-a1d0c320afa2) with status 201
+2024-10-03 12:16:10,276 - basicLogger - INFO - Returned event parking_status response (Id: 3db293ff-e15a-4939-8ada-96aac661e79c) with status 201
+2024-10-03 12:16:10,289 - basicLogger - INFO - Received event payment request with a trace id of 0ecb106c-9c3f-4408-b072-8f78a15d966d
+2024-10-03 12:16:10,291 - basicLogger - INFO - Returned event parking_status response (Id: 690800ef-ca24-4ab7-901c-5081f91f3bb4) with status 201
+2024-10-03 12:16:10,294 - basicLogger - INFO - Returned event parking_status response (Id: d2b6464a-e3f6-4210-abd3-a3a9c0a045ea) with status 201
+2024-10-03 12:16:10,323 - basicLogger - INFO - Received event parking_status request with a trace id of 9003776e-4d5e-4aae-bac2-f28241c3e558
+2024-10-03 12:16:10,337 - basicLogger - INFO - Returned event payment response (Id: 0ecb106c-9c3f-4408-b072-8f78a15d966d) with status 201
+2024-10-03 12:16:10,346 - basicLogger - INFO - Received event payment request with a trace id of c5814c80-e431-4ba5-b739-0f96e644b894
+2024-10-03 12:16:10,348 - basicLogger - INFO - Received event payment request with a trace id of 9544041f-d01a-4cfc-ab34-9e87774beb2b
+2024-10-03 12:16:10,362 - basicLogger - INFO - Returned event parking_status response (Id: 9003776e-4d5e-4aae-bac2-f28241c3e558) with status 201
+2024-10-03 12:16:10,366 - basicLogger - INFO - Received event payment request with a trace id of ce835f24-1e7d-4258-a85f-e2c1ae98d326
+2024-10-03 12:16:10,381 - basicLogger - INFO - Received event parking_status request with a trace id of a53af601-7831-4a64-b890-d6471f34d36d
+2024-10-03 12:16:10,398 - basicLogger - INFO - Received event payment request with a trace id of 2bfecc15-ce74-4fd9-a190-1075912e94f4
+2024-10-03 12:16:10,410 - basicLogger - INFO - Returned event payment response (Id: c5814c80-e431-4ba5-b739-0f96e644b894) with status 201
+2024-10-03 12:16:10,425 - basicLogger - INFO - Returned event payment response (Id: 9544041f-d01a-4cfc-ab34-9e87774beb2b) with status 201
+2024-10-03 12:16:10,429 - basicLogger - INFO - Received event parking_status request with a trace id of e8d5b866-72e8-4d98-bfc4-9d61b35d5c19
+2024-10-03 12:16:10,443 - basicLogger - INFO - Returned event payment response (Id: ce835f24-1e7d-4258-a85f-e2c1ae98d326) with status 201
+2024-10-03 12:16:10,447 - basicLogger - INFO - Received event parking_status request with a trace id of 0a108209-a002-424d-92d7-36ecf080138d
+2024-10-03 12:16:10,482 - basicLogger - INFO - Returned event parking_status response (Id: a53af601-7831-4a64-b890-d6471f34d36d) with status 201
+2024-10-03 12:16:10,484 - basicLogger - INFO - Returned event payment response (Id: 2bfecc15-ce74-4fd9-a190-1075912e94f4) with status 201
+2024-10-03 12:16:10,499 - basicLogger - INFO - Returned event parking_status response (Id: e8d5b866-72e8-4d98-bfc4-9d61b35d5c19) with status 201
+2024-10-03 12:16:10,505 - basicLogger - INFO - Received event parking_status request with a trace id of 5004d3a7-0e4d-4126-9ae4-704c1d92bfab
+2024-10-03 12:16:10,526 - basicLogger - INFO - Returned event parking_status response (Id: 0a108209-a002-424d-92d7-36ecf080138d) with status 201
+2024-10-03 12:16:10,567 - basicLogger - INFO - Returned event parking_status response (Id: 5004d3a7-0e4d-4126-9ae4-704c1d92bfab) with status 201
+2024-10-03 12:16:10,572 - basicLogger - INFO - Received event payment request with a trace id of 8cbc3ed9-033a-41bc-a897-5b6e6dbf1f98
+2024-10-03 12:16:10,574 - basicLogger - INFO - Received event parking_status request with a trace id of d5de2dfa-f5dc-4a0e-bdfa-214edd6243cf
+2024-10-03 12:16:10,588 - basicLogger - INFO - Received event payment request with a trace id of 4de0ecd2-ec08-4b59-a386-61cd04f6d732
+2024-10-03 12:16:10,628 - basicLogger - INFO - Received event payment request with a trace id of 0dc656af-4b38-48e7-be84-4bc5b490e927
+2024-10-03 12:16:10,637 - basicLogger - INFO - Received event payment request with a trace id of 78da015e-946c-4fdd-b633-c10b71b65320
+2024-10-03 12:16:10,648 - basicLogger - INFO - Returned event payment response (Id: 8cbc3ed9-033a-41bc-a897-5b6e6dbf1f98) with status 201
+2024-10-03 12:16:10,669 - basicLogger - INFO - Received event parking_status request with a trace id of 42cd4a66-f246-40b0-b36a-5b2546f501aa
+2024-10-03 12:16:10,718 - basicLogger - INFO - Returned event payment response (Id: 4de0ecd2-ec08-4b59-a386-61cd04f6d732) with status 201
+2024-10-03 12:16:10,724 - basicLogger - INFO - Returned event parking_status response (Id: d5de2dfa-f5dc-4a0e-bdfa-214edd6243cf) with status 201
+2024-10-03 12:16:10,739 - basicLogger - INFO - Received event payment request with a trace id of c4fe7f53-2c0a-409d-bea2-3615c7145c8f
+2024-10-03 12:16:10,742 - basicLogger - INFO - Returned event payment response (Id: 0dc656af-4b38-48e7-be84-4bc5b490e927) with status 201
+2024-10-03 12:16:10,747 - basicLogger - INFO - Received event parking_status request with a trace id of 0320ab31-538b-4c81-8363-d184501503b4
+2024-10-03 12:16:10,752 - basicLogger - INFO - Returned event payment response (Id: 78da015e-946c-4fdd-b633-c10b71b65320) with status 201
+2024-10-03 12:16:10,757 - basicLogger - INFO - Returned event parking_status response (Id: 42cd4a66-f246-40b0-b36a-5b2546f501aa) with status 201
+2024-10-03 12:16:10,770 - basicLogger - INFO - Received event parking_status request with a trace id of 36f0b4d8-4b91-4d92-9057-79d3929161bc
+2024-10-03 12:16:10,800 - basicLogger - INFO - Received event payment request with a trace id of 7b8d99b1-a71d-439a-9d35-b310c09c0ccf
+2024-10-03 12:16:10,809 - basicLogger - INFO - Returned event payment response (Id: c4fe7f53-2c0a-409d-bea2-3615c7145c8f) with status 201
+2024-10-03 12:16:10,811 - basicLogger - INFO - Returned event parking_status response (Id: 0320ab31-538b-4c81-8363-d184501503b4) with status 201
+2024-10-03 12:16:10,815 - basicLogger - INFO - Received event parking_status request with a trace id of a5533cc5-16f3-4407-95da-0ec59b119e24
+2024-10-03 12:16:10,822 - basicLogger - INFO - Returned event parking_status response (Id: 36f0b4d8-4b91-4d92-9057-79d3929161bc) with status 201
+2024-10-03 12:16:10,845 - basicLogger - INFO - Returned event payment response (Id: 7b8d99b1-a71d-439a-9d35-b310c09c0ccf) with status 201
+2024-10-03 12:16:10,851 - basicLogger - INFO - Received event payment request with a trace id of d216cdab-f55a-46c1-8c98-b7d7d4bcf3f3
+2024-10-03 12:16:10,852 - basicLogger - INFO - Returned event parking_status response (Id: a5533cc5-16f3-4407-95da-0ec59b119e24) with status 201
+2024-10-03 12:16:10,853 - basicLogger - INFO - Received event payment request with a trace id of 419c7cea-7c68-4af2-ab8a-1add51647054
+2024-10-03 12:16:10,857 - basicLogger - INFO - Received event parking_status request with a trace id of 9d32a046-95ae-4b61-8e34-5929f0763394
+2024-10-03 12:16:10,881 - basicLogger - INFO - Received event parking_status request with a trace id of 2eb18b71-4c6e-4f02-a464-7c0cb7996064
+2024-10-03 12:16:10,893 - basicLogger - INFO - Received event payment request with a trace id of bd3c0a00-346b-4dea-aba9-da226fe83cb6
+2024-10-03 12:16:10,937 - basicLogger - INFO - Returned event payment response (Id: 419c7cea-7c68-4af2-ab8a-1add51647054) with status 201
+2024-10-03 12:16:10,938 - basicLogger - INFO - Returned event payment response (Id: d216cdab-f55a-46c1-8c98-b7d7d4bcf3f3) with status 201
+2024-10-03 12:16:10,960 - basicLogger - INFO - Returned event payment response (Id: bd3c0a00-346b-4dea-aba9-da226fe83cb6) with status 201
+2024-10-03 12:16:10,962 - basicLogger - INFO - Received event parking_status request with a trace id of b4ab9aa7-b9ec-40ef-a434-94cf214f7955
+2024-10-03 12:16:10,963 - basicLogger - INFO - Returned event parking_status response (Id: 9d32a046-95ae-4b61-8e34-5929f0763394) with status 201
+2024-10-03 12:16:10,964 - basicLogger - INFO - Received event parking_status request with a trace id of 13d557b4-0962-4d99-adfe-a11b0c504d04
+2024-10-03 12:16:10,965 - basicLogger - INFO - Returned event parking_status response (Id: 2eb18b71-4c6e-4f02-a464-7c0cb7996064) with status 201
+2024-10-03 12:16:11,002 - basicLogger - INFO - Received event payment request with a trace id of 4629afe0-e4ed-47b0-a863-4a0a04ed564a
+2024-10-03 12:16:11,014 - basicLogger - INFO - Received event payment request with a trace id of 160f0efe-c251-4efe-9c83-169bb4180505
+2024-10-03 12:16:11,021 - basicLogger - INFO - Received event parking_status request with a trace id of 242162f0-7629-45cb-b2d2-20b947239cc7
+2024-10-03 12:16:11,023 - basicLogger - INFO - Returned event parking_status response (Id: b4ab9aa7-b9ec-40ef-a434-94cf214f7955) with status 201
+2024-10-03 12:16:11,028 - basicLogger - INFO - Returned event parking_status response (Id: 13d557b4-0962-4d99-adfe-a11b0c504d04) with status 201
+2024-10-03 12:16:11,047 - basicLogger - INFO - Received event payment request with a trace id of e0c81dc3-aba5-4876-8fce-ee6824a00e15
+2024-10-03 12:16:11,061 - basicLogger - INFO - Received event payment request with a trace id of cd874261-492e-4e34-84ea-9d469b96ad48
+2024-10-03 12:16:11,084 - basicLogger - INFO - Returned event payment response (Id: 4629afe0-e4ed-47b0-a863-4a0a04ed564a) with status 201
+2024-10-03 12:16:11,101 - basicLogger - INFO - Received event parking_status request with a trace id of a44de20d-c531-402a-b1a4-8bb604d30879
+2024-10-03 12:16:11,107 - basicLogger - INFO - Returned event payment response (Id: 160f0efe-c251-4efe-9c83-169bb4180505) with status 201
+2024-10-03 12:16:11,111 - basicLogger - INFO - Returned event parking_status response (Id: 242162f0-7629-45cb-b2d2-20b947239cc7) with status 201
+2024-10-03 12:16:11,119 - basicLogger - INFO - Returned event payment response (Id: e0c81dc3-aba5-4876-8fce-ee6824a00e15) with status 201
+2024-10-03 12:16:11,122 - basicLogger - INFO - Returned event payment response (Id: cd874261-492e-4e34-84ea-9d469b96ad48) with status 201
+2024-10-03 12:16:11,133 - basicLogger - INFO - Received event payment request with a trace id of e4d75fac-da01-413b-b411-6ce86886bc73
+2024-10-03 12:16:11,148 - basicLogger - INFO - Received event parking_status request with a trace id of c5fad496-c4f7-4e72-b5c2-5b255a2fc6e0
+2024-10-03 12:16:11,151 - basicLogger - INFO - Received event parking_status request with a trace id of baadde2c-df08-47b1-8174-542350ba374c
+2024-10-03 12:16:11,162 - basicLogger - INFO - Returned event parking_status response (Id: a44de20d-c531-402a-b1a4-8bb604d30879) with status 201
+2024-10-03 12:16:11,169 - basicLogger - INFO - Received event parking_status request with a trace id of 99178c77-dd59-49e7-bd07-1499f77698ed
+2024-10-03 12:16:11,179 - basicLogger - INFO - Returned event payment response (Id: e4d75fac-da01-413b-b411-6ce86886bc73) with status 201
+2024-10-03 12:16:11,189 - basicLogger - INFO - Received event payment request with a trace id of 969215b4-5de1-41d9-97de-b65341ac309a
+2024-10-03 12:16:11,203 - basicLogger - INFO - Received event parking_status request with a trace id of 6ac69ac1-0bca-45ba-81d4-6539f09279fe
+2024-10-03 12:16:11,227 - basicLogger - INFO - Returned event parking_status response (Id: baadde2c-df08-47b1-8174-542350ba374c) with status 201
+2024-10-03 12:16:11,230 - basicLogger - INFO - Returned event parking_status response (Id: c5fad496-c4f7-4e72-b5c2-5b255a2fc6e0) with status 201
+2024-10-03 12:16:11,249 - basicLogger - INFO - Received event payment request with a trace id of d5f54f77-b6f6-4b7d-a14c-e5a3b9ebbb34
+2024-10-03 12:16:11,251 - basicLogger - INFO - Returned event payment response (Id: 969215b4-5de1-41d9-97de-b65341ac309a) with status 201
+2024-10-03 12:16:11,255 - basicLogger - INFO - Returned event parking_status response (Id: 6ac69ac1-0bca-45ba-81d4-6539f09279fe) with status 201
+2024-10-03 12:16:11,258 - basicLogger - INFO - Returned event parking_status response (Id: 99178c77-dd59-49e7-bd07-1499f77698ed) with status 201
+2024-10-03 12:16:11,260 - basicLogger - INFO - Received event payment request with a trace id of e07c82ea-13d0-4d27-93c9-28140f953a3e
+2024-10-03 12:16:11,280 - basicLogger - INFO - Received event payment request with a trace id of df4ad3e1-87b0-4a27-975c-7a25cee658b6
+2024-10-03 12:16:11,288 - basicLogger - INFO - Received event payment request with a trace id of 510f5622-4948-4e8e-9784-f62e050f301f
+2024-10-03 12:16:11,301 - basicLogger - INFO - Received event parking_status request with a trace id of b153f313-01d8-4dc0-a6fa-46e02afd0fb5
+2024-10-03 12:16:11,336 - basicLogger - INFO - Returned event payment response (Id: e07c82ea-13d0-4d27-93c9-28140f953a3e) with status 201
+2024-10-03 12:16:11,340 - basicLogger - INFO - Returned event payment response (Id: d5f54f77-b6f6-4b7d-a14c-e5a3b9ebbb34) with status 201
+2024-10-03 12:16:11,356 - basicLogger - INFO - Returned event payment response (Id: df4ad3e1-87b0-4a27-975c-7a25cee658b6) with status 201
+2024-10-03 12:16:11,360 - basicLogger - INFO - Received event parking_status request with a trace id of 4718dbe6-fd74-4456-bd91-a764f18b0b12
+2024-10-03 12:16:11,362 - basicLogger - INFO - Returned event payment response (Id: 510f5622-4948-4e8e-9784-f62e050f301f) with status 201
+2024-10-03 12:16:11,363 - basicLogger - INFO - Received event parking_status request with a trace id of dd751277-acf0-4565-a04e-66d51826ecb2
+2024-10-03 12:16:11,367 - basicLogger - INFO - Returned event parking_status response (Id: b153f313-01d8-4dc0-a6fa-46e02afd0fb5) with status 201
+2024-10-03 12:16:11,387 - basicLogger - INFO - Received event parking_status request with a trace id of 402f1091-f763-4b84-83fc-7d436cac7209
+2024-10-03 12:16:11,405 - basicLogger - INFO - Received event payment request with a trace id of 9232a758-0f82-44df-845f-506f03d5de54
+2024-10-03 12:16:11,412 - basicLogger - INFO - Received event parking_status request with a trace id of c75f9a21-4925-494c-b1fe-6d0ba577afc7
+2024-10-03 12:16:11,437 - basicLogger - INFO - Returned event parking_status response (Id: 4718dbe6-fd74-4456-bd91-a764f18b0b12) with status 201
+2024-10-03 12:16:11,448 - basicLogger - INFO - Received event payment request with a trace id of d305bf2e-25c4-42b3-aa57-8168c0005e54
+2024-10-03 12:16:11,460 - basicLogger - INFO - Returned event parking_status response (Id: dd751277-acf0-4565-a04e-66d51826ecb2) with status 201
+2024-10-03 12:16:11,473 - basicLogger - INFO - Returned event parking_status response (Id: 402f1091-f763-4b84-83fc-7d436cac7209) with status 201
+2024-10-03 12:16:11,473 - basicLogger - INFO - Received event payment request with a trace id of 88f3d091-5514-41ad-b8d8-ccaccee5280e
+2024-10-03 12:16:11,474 - basicLogger - INFO - Returned event payment response (Id: 9232a758-0f82-44df-845f-506f03d5de54) with status 201
+2024-10-03 12:16:11,483 - basicLogger - INFO - Returned event parking_status response (Id: c75f9a21-4925-494c-b1fe-6d0ba577afc7) with status 201
+2024-10-03 12:16:11,487 - basicLogger - INFO - Returned event payment response (Id: d305bf2e-25c4-42b3-aa57-8168c0005e54) with status 201
+2024-10-03 12:16:11,498 - basicLogger - INFO - Received event payment request with a trace id of 820a2809-6120-4180-9412-78d0ffc0a8a8
+2024-10-03 12:16:11,508 - basicLogger - INFO - Returned event payment response (Id: 88f3d091-5514-41ad-b8d8-ccaccee5280e) with status 201
+2024-10-03 12:16:11,519 - basicLogger - INFO - Received event payment request with a trace id of 25357645-aecd-4c85-b7a7-33d61393c171
+2024-10-03 12:16:11,532 - basicLogger - INFO - Received event parking_status request with a trace id of 6e8f692e-e4ec-458b-8e5c-7138c8fac31c
+2024-10-03 12:16:11,542 - basicLogger - INFO - Received event parking_status request with a trace id of b646fcaa-6269-4781-aa7d-2d3ca525744d
+2024-10-03 12:16:11,571 - basicLogger - INFO - Returned event payment response (Id: 820a2809-6120-4180-9412-78d0ffc0a8a8) with status 201
+2024-10-03 12:16:11,574 - basicLogger - INFO - Returned event payment response (Id: 25357645-aecd-4c85-b7a7-33d61393c171) with status 201
+2024-10-03 12:16:11,584 - basicLogger - INFO - Returned event parking_status response (Id: 6e8f692e-e4ec-458b-8e5c-7138c8fac31c) with status 201
+2024-10-03 12:16:11,586 - basicLogger - INFO - Returned event parking_status response (Id: b646fcaa-6269-4781-aa7d-2d3ca525744d) with status 201
+2024-10-03 12:16:11,600 - basicLogger - INFO - Received event parking_status request with a trace id of 6ef8abd4-f426-487b-9b21-afc8a4df1c48
+2024-10-03 12:16:11,606 - basicLogger - INFO - Received event parking_status request with a trace id of 87e4b00a-09fd-43f7-b768-20e372a2bd6e
+2024-10-03 12:16:11,620 - basicLogger - INFO - Received event payment request with a trace id of 8c00c2d8-deb5-4d49-b04f-c111eeaa7cbf
+2024-10-03 12:16:11,627 - basicLogger - INFO - Received event payment request with a trace id of ffa5367e-da9d-4bef-bb42-b500462927c7
+2024-10-03 12:16:11,666 - basicLogger - INFO - Returned event parking_status response (Id: 87e4b00a-09fd-43f7-b768-20e372a2bd6e) with status 201
+2024-10-03 12:16:11,670 - basicLogger - INFO - Returned event parking_status response (Id: 6ef8abd4-f426-487b-9b21-afc8a4df1c48) with status 201
+2024-10-03 12:16:11,674 - basicLogger - INFO - Returned event payment response (Id: 8c00c2d8-deb5-4d49-b04f-c111eeaa7cbf) with status 201
+2024-10-03 12:16:11,681 - basicLogger - INFO - Returned event payment response (Id: ffa5367e-da9d-4bef-bb42-b500462927c7) with status 201
+2024-10-03 12:16:11,684 - basicLogger - INFO - Received event payment request with a trace id of 654455cb-7926-45b0-81ff-530902d15d67
+2024-10-03 12:16:11,698 - basicLogger - INFO - Received event payment request with a trace id of 78a9af75-a459-4004-84e4-2914cda26da5
+2024-10-03 12:16:11,714 - basicLogger - INFO - Received event parking_status request with a trace id of 141275e9-48d2-45eb-944a-071226ea0307
+2024-10-03 12:16:11,744 - basicLogger - INFO - Returned event payment response (Id: 654455cb-7926-45b0-81ff-530902d15d67) with status 201
+2024-10-03 12:16:11,749 - basicLogger - INFO - Returned event payment response (Id: 78a9af75-a459-4004-84e4-2914cda26da5) with status 201
+2024-10-03 12:16:11,752 - basicLogger - INFO - Returned event parking_status response (Id: 141275e9-48d2-45eb-944a-071226ea0307) with status 201
+2024-10-03 12:16:11,767 - basicLogger - INFO - Received event parking_status request with a trace id of c92c250f-b1c1-4dc1-a4ef-0363f84d8cd0
+2024-10-03 12:16:11,773 - basicLogger - INFO - Received event parking_status request with a trace id of 6fa15766-52eb-4880-8533-cd463eac1202
+2024-10-03 12:16:11,782 - basicLogger - INFO - Received event payment request with a trace id of c39eee5e-e1f9-4a67-aadf-ff085917e430
+2024-10-03 12:16:11,822 - basicLogger - INFO - Returned event parking_status response (Id: 6fa15766-52eb-4880-8533-cd463eac1202) with status 201
+2024-10-03 12:16:11,830 - basicLogger - INFO - Returned event parking_status response (Id: c92c250f-b1c1-4dc1-a4ef-0363f84d8cd0) with status 201
+2024-10-03 12:16:11,837 - basicLogger - INFO - Returned event payment response (Id: c39eee5e-e1f9-4a67-aadf-ff085917e430) with status 201
+2024-10-03 12:16:11,842 - basicLogger - INFO - Received event payment request with a trace id of 655efbc9-33cf-4aab-ac32-0a392b030cb7
+2024-10-03 12:16:11,855 - basicLogger - INFO - Received event payment request with a trace id of 4f83156d-708f-4661-81ce-5f799b5cc346
+2024-10-03 12:16:11,867 - basicLogger - INFO - Received event parking_status request with a trace id of 8e37e126-0b87-4776-986b-e3f65e48c8a4
+2024-10-03 12:16:11,892 - basicLogger - INFO - Returned event payment response (Id: 655efbc9-33cf-4aab-ac32-0a392b030cb7) with status 201
+2024-10-03 12:16:11,902 - basicLogger - INFO - Returned event parking_status response (Id: 8e37e126-0b87-4776-986b-e3f65e48c8a4) with status 201
+2024-10-03 12:16:11,905 - basicLogger - INFO - Returned event payment response (Id: 4f83156d-708f-4661-81ce-5f799b5cc346) with status 201
+2024-10-03 12:16:11,916 - basicLogger - INFO - Received event parking_status request with a trace id of 8c98746e-8d3d-45d0-8d67-9989ea37460c
+2024-10-03 12:16:11,931 - basicLogger - INFO - Received event payment request with a trace id of 68d0b6d2-2b43-4a2e-b7e4-4a2fc467a7c8
+2024-10-03 12:16:11,938 - basicLogger - INFO - Received event parking_status request with a trace id of ebe29031-8149-4800-96ad-f4d86f50115f
+2024-10-03 12:16:11,954 - basicLogger - INFO - Returned event parking_status response (Id: 8c98746e-8d3d-45d0-8d67-9989ea37460c) with status 201
+2024-10-03 12:16:11,966 - basicLogger - INFO - Received event payment request with a trace id of 000c3bf8-ff48-4d13-977d-7bf1e6bac687
+2024-10-03 12:16:11,980 - basicLogger - INFO - Returned event payment response (Id: 68d0b6d2-2b43-4a2e-b7e4-4a2fc467a7c8) with status 201
+2024-10-03 12:16:11,982 - basicLogger - INFO - Returned event parking_status response (Id: ebe29031-8149-4800-96ad-f4d86f50115f) with status 201
+2024-10-03 12:16:11,993 - basicLogger - INFO - Returned event payment response (Id: 000c3bf8-ff48-4d13-977d-7bf1e6bac687) with status 201
+2024-10-03 12:16:12,000 - basicLogger - INFO - Received event payment request with a trace id of a2d74b79-2132-408b-90d7-4e59d642a0b9
+2024-10-03 12:16:12,025 - basicLogger - INFO - Returned event payment response (Id: a2d74b79-2132-408b-90d7-4e59d642a0b9) with status 201
+2024-10-03 12:16:12,039 - basicLogger - INFO - Received event parking_status request with a trace id of 6aa1790a-f468-4ea9-97ef-e0afe79e613c
+2024-10-03 12:16:12,062 - basicLogger - INFO - Returned event parking_status response (Id: 6aa1790a-f468-4ea9-97ef-e0afe79e613c) with status 201
+2024-10-03 12:16:12,073 - basicLogger - INFO - Received event payment request with a trace id of 76bd2db7-d24b-4c24-b0d7-fc56fe6f428d
+2024-10-03 12:16:12,096 - basicLogger - INFO - Returned event payment response (Id: 76bd2db7-d24b-4c24-b0d7-fc56fe6f428d) with status 201

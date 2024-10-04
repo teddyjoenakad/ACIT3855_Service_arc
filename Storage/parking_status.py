@@ -8,14 +8,15 @@ class ParkingStatus(Base):
     __tablename__ = "parking_status"
 
     id = Column(Integer, primary_key=True)
-    meter_id = Column(String(250), nullable=False)
-    device_id = Column(String(250), nullable=False)
-    status = Column(String(100), nullable=False)
+    meter_id = Column(String, nullable=False)
+    device_id = Column(String, nullable=False)
+    status = Column(String, nullable=False)
     spot_number = Column(Integer, nullable=False)
-    timestamp = Column(String(100), nullable=False)
+    timestamp = Column(String, nullable=False)
     date_created = Column(DateTime, nullable=False)
+    trace_id = Column(String, nullable=False)
 
-    def __init__(self, meter_id, device_id, status, spot_number, timestamp):
+    def __init__(self, meter_id, device_id, status, spot_number, timestamp, trace_id):
         """ Initializes a parking status update """
         self.meter_id = meter_id
         self.device_id = device_id
@@ -23,6 +24,7 @@ class ParkingStatus(Base):
         self.spot_number = spot_number
         self.timestamp = timestamp
         self.date_created = now()  # Sets the date/time record is created
+        self.trace_id = trace_id
 
     def to_dict(self):
         """ Dictionary Representation of a parking status update """
@@ -33,5 +35,6 @@ class ParkingStatus(Base):
             'status': self.status,
             'spot_number': self.spot_number,
             'timestamp': self.timestamp,
-            'date_created': self.date_created
+            'date_created': self.date_created,
+            'trace_id': self.trace_id
         }

@@ -1,0 +1,100 @@
+2024-10-03 12:16:09,502 - basicLogger - DEBUG - Stored parking status event for meter_id 36451
+2024-10-03 12:16:09,560 - basicLogger - DEBUG - Stored payment event for trace_id d86ca74e-3928-4ccb-a825-8587388f7974
+2024-10-03 12:16:09,652 - basicLogger - DEBUG - Stored parking status event for meter_id 39476
+2024-10-03 12:16:09,663 - basicLogger - DEBUG - Stored parking status event for meter_id 11235
+2024-10-03 12:16:09,710 - basicLogger - DEBUG - Stored payment event for trace_id 5cdfc782-3c5b-4f67-a31c-575d50896551
+2024-10-03 12:16:09,717 - basicLogger - DEBUG - Stored payment event for trace_id ec6d747d-011c-4051-b8c0-64ce670b8358
+2024-10-03 12:16:09,774 - basicLogger - DEBUG - Stored parking status event for meter_id 14073
+2024-10-03 12:16:09,777 - basicLogger - DEBUG - Stored parking status event for meter_id 50273
+2024-10-03 12:16:09,865 - basicLogger - DEBUG - Stored payment event for trace_id 065573e3-018e-4cc0-b83f-a75a233272f9
+2024-10-03 12:16:09,871 - basicLogger - DEBUG - Stored parking status event for meter_id 41721
+2024-10-03 12:16:09,892 - basicLogger - DEBUG - Stored payment event for trace_id 6208e6bc-488b-4aef-a910-109c6fcb1598
+2024-10-03 12:16:09,977 - basicLogger - DEBUG - Stored parking status event for meter_id 23760
+2024-10-03 12:16:09,981 - basicLogger - DEBUG - Stored parking status event for meter_id 46411
+2024-10-03 12:16:09,982 - basicLogger - DEBUG - Stored payment event for trace_id ebcbc3ca-f59b-43c0-95b0-6a7ae784bcc2
+2024-10-03 12:16:10,098 - basicLogger - DEBUG - Stored parking status event for meter_id 93670
+2024-10-03 12:16:10,104 - basicLogger - DEBUG - Stored payment event for trace_id e5faa88d-00f4-49ec-b11b-f82597459481
+2024-10-03 12:16:10,109 - basicLogger - DEBUG - Stored payment event for trace_id 303794fd-8414-4f50-a8b4-e8bbb35c36e8
+2024-10-03 12:16:10,117 - basicLogger - DEBUG - Stored parking status event for meter_id 89267
+2024-10-03 12:16:10,187 - basicLogger - DEBUG - Stored payment event for trace_id efb32285-8ba1-4b6e-b1cb-4b3a536bc47d
+2024-10-03 12:16:10,241 - basicLogger - DEBUG - Stored parking status event for meter_id 92815
+2024-10-03 12:16:10,246 - basicLogger - DEBUG - Stored parking status event for meter_id 99670
+2024-10-03 12:16:10,248 - basicLogger - DEBUG - Stored payment event for trace_id 6947860a-3101-4c93-a29a-a1d0c320afa2
+2024-10-03 12:16:10,278 - basicLogger - DEBUG - Stored parking status event for meter_id 56553
+2024-10-03 12:16:10,281 - basicLogger - DEBUG - Stored parking status event for meter_id 11302
+2024-10-03 12:16:10,327 - basicLogger - DEBUG - Stored payment event for trace_id 0ecb106c-9c3f-4408-b072-8f78a15d966d
+2024-10-03 12:16:10,353 - basicLogger - DEBUG - Stored parking status event for meter_id 17399
+2024-10-03 12:16:10,393 - basicLogger - DEBUG - Stored payment event for trace_id c5814c80-e431-4ba5-b739-0f96e644b894
+2024-10-03 12:16:10,395 - basicLogger - DEBUG - Stored payment event for trace_id 9544041f-d01a-4cfc-ab34-9e87774beb2b
+2024-10-03 12:16:10,429 - basicLogger - DEBUG - Stored payment event for trace_id ce835f24-1e7d-4258-a85f-e2c1ae98d326
+2024-10-03 12:16:10,436 - basicLogger - DEBUG - Stored parking status event for meter_id 38841
+2024-10-03 12:16:10,441 - basicLogger - DEBUG - Stored payment event for trace_id 2bfecc15-ce74-4fd9-a190-1075912e94f4
+2024-10-03 12:16:10,481 - basicLogger - DEBUG - Stored parking status event for meter_id 97387
+2024-10-03 12:16:10,508 - basicLogger - DEBUG - Stored parking status event for meter_id 47135
+2024-10-03 12:16:10,553 - basicLogger - DEBUG - Stored parking status event for meter_id 73155
+2024-10-03 12:16:10,625 - basicLogger - DEBUG - Stored payment event for trace_id 8cbc3ed9-033a-41bc-a897-5b6e6dbf1f98
+2024-10-03 12:16:10,666 - basicLogger - DEBUG - Stored parking status event for meter_id 41822
+2024-10-03 12:16:10,668 - basicLogger - DEBUG - Stored payment event for trace_id 4de0ecd2-ec08-4b59-a386-61cd04f6d732
+2024-10-03 12:16:10,695 - basicLogger - DEBUG - Stored payment event for trace_id 0dc656af-4b38-48e7-be84-4bc5b490e927
+2024-10-03 12:16:10,740 - basicLogger - DEBUG - Stored payment event for trace_id 78da015e-946c-4fdd-b633-c10b71b65320
+2024-10-03 12:16:10,741 - basicLogger - DEBUG - Stored parking status event for meter_id 90287
+2024-10-03 12:16:10,781 - basicLogger - DEBUG - Stored parking status event for meter_id 20340
+2024-10-03 12:16:10,784 - basicLogger - DEBUG - Stored payment event for trace_id c4fe7f53-2c0a-409d-bea2-3615c7145c8f
+2024-10-03 12:16:10,802 - basicLogger - DEBUG - Stored parking status event for meter_id 38974
+2024-10-03 12:16:10,837 - basicLogger - DEBUG - Stored payment event for trace_id 7b8d99b1-a71d-439a-9d35-b310c09c0ccf
+2024-10-03 12:16:10,843 - basicLogger - DEBUG - Stored parking status event for meter_id 77327
+2024-10-03 12:16:10,910 - basicLogger - DEBUG - Stored payment event for trace_id d216cdab-f55a-46c1-8c98-b7d7d4bcf3f3
+2024-10-03 12:16:10,911 - basicLogger - DEBUG - Stored payment event for trace_id 419c7cea-7c68-4af2-ab8a-1add51647054
+2024-10-03 12:16:10,939 - basicLogger - DEBUG - Stored parking status event for meter_id 16930
+2024-10-03 12:16:10,943 - basicLogger - DEBUG - Stored parking status event for meter_id 90909
+2024-10-03 12:16:10,945 - basicLogger - DEBUG - Stored payment event for trace_id bd3c0a00-346b-4dea-aba9-da226fe83cb6
+2024-10-03 12:16:11,014 - basicLogger - DEBUG - Stored parking status event for meter_id 91610
+2024-10-03 12:16:11,020 - basicLogger - DEBUG - Stored parking status event for meter_id 34144
+2024-10-03 12:16:11,059 - basicLogger - DEBUG - Stored payment event for trace_id 4629afe0-e4ed-47b0-a863-4a0a04ed564a
+2024-10-03 12:16:11,067 - basicLogger - DEBUG - Stored payment event for trace_id 160f0efe-c251-4efe-9c83-169bb4180505
+2024-10-03 12:16:11,089 - basicLogger - DEBUG - Stored parking status event for meter_id 62574
+2024-10-03 12:16:11,105 - basicLogger - DEBUG - Stored payment event for trace_id cd874261-492e-4e34-84ea-9d469b96ad48
+2024-10-03 12:16:11,105 - basicLogger - DEBUG - Stored payment event for trace_id e0c81dc3-aba5-4876-8fce-ee6824a00e15
+2024-10-03 12:16:11,153 - basicLogger - DEBUG - Stored parking status event for meter_id 95486
+2024-10-03 12:16:11,164 - basicLogger - DEBUG - Stored payment event for trace_id e4d75fac-da01-413b-b411-6ce86886bc73
+2024-10-03 12:16:11,201 - basicLogger - DEBUG - Stored parking status event for meter_id 10717
+2024-10-03 12:16:11,203 - basicLogger - DEBUG - Stored parking status event for meter_id 68506
+2024-10-03 12:16:11,233 - basicLogger - DEBUG - Stored parking status event for meter_id 98661
+2024-10-03 12:16:11,236 - basicLogger - DEBUG - Stored payment event for trace_id 969215b4-5de1-41d9-97de-b65341ac309a
+2024-10-03 12:16:11,242 - basicLogger - DEBUG - Stored parking status event for meter_id 42920
+2024-10-03 12:16:11,309 - basicLogger - DEBUG - Stored payment event for trace_id d5f54f77-b6f6-4b7d-a14c-e5a3b9ebbb34
+2024-10-03 12:16:11,321 - basicLogger - DEBUG - Stored payment event for trace_id e07c82ea-13d0-4d27-93c9-28140f953a3e
+2024-10-03 12:16:11,341 - basicLogger - DEBUG - Stored payment event for trace_id df4ad3e1-87b0-4a27-975c-7a25cee658b6
+2024-10-03 12:16:11,342 - basicLogger - DEBUG - Stored payment event for trace_id 510f5622-4948-4e8e-9784-f62e050f301f
+2024-10-03 12:16:11,344 - basicLogger - DEBUG - Stored parking status event for meter_id 80594
+2024-10-03 12:16:11,428 - basicLogger - DEBUG - Stored parking status event for meter_id 21103
+2024-10-03 12:16:11,430 - basicLogger - DEBUG - Stored parking status event for meter_id 23933
+2024-10-03 12:16:11,431 - basicLogger - DEBUG - Stored parking status event for meter_id 58757
+2024-10-03 12:16:11,451 - basicLogger - DEBUG - Stored payment event for trace_id 9232a758-0f82-44df-845f-506f03d5de54
+2024-10-03 12:16:11,461 - basicLogger - DEBUG - Stored parking status event for meter_id 64711
+2024-10-03 12:16:11,472 - basicLogger - DEBUG - Stored payment event for trace_id d305bf2e-25c4-42b3-aa57-8168c0005e54
+2024-10-03 12:16:11,503 - basicLogger - DEBUG - Stored payment event for trace_id 88f3d091-5514-41ad-b8d8-ccaccee5280e
+2024-10-03 12:16:11,548 - basicLogger - DEBUG - Stored payment event for trace_id 820a2809-6120-4180-9412-78d0ffc0a8a8
+2024-10-03 12:16:11,558 - basicLogger - DEBUG - Stored payment event for trace_id 25357645-aecd-4c85-b7a7-33d61393c171
+2024-10-03 12:16:11,577 - basicLogger - DEBUG - Stored parking status event for meter_id 56824
+2024-10-03 12:16:11,577 - basicLogger - DEBUG - Stored parking status event for meter_id 76616
+2024-10-03 12:16:11,649 - basicLogger - DEBUG - Stored parking status event for meter_id 94416
+2024-10-03 12:16:11,659 - basicLogger - DEBUG - Stored payment event for trace_id 8c00c2d8-deb5-4d49-b04f-c111eeaa7cbf
+2024-10-03 12:16:11,661 - basicLogger - DEBUG - Stored parking status event for meter_id 30223
+2024-10-03 12:16:11,667 - basicLogger - DEBUG - Stored payment event for trace_id ffa5367e-da9d-4bef-bb42-b500462927c7
+2024-10-03 12:16:11,736 - basicLogger - DEBUG - Stored payment event for trace_id 654455cb-7926-45b0-81ff-530902d15d67
+2024-10-03 12:16:11,740 - basicLogger - DEBUG - Stored parking status event for meter_id 80830
+2024-10-03 12:16:11,744 - basicLogger - DEBUG - Stored payment event for trace_id 78a9af75-a459-4004-84e4-2914cda26da5
+2024-10-03 12:16:11,815 - basicLogger - DEBUG - Stored parking status event for meter_id 33275
+2024-10-03 12:16:11,820 - basicLogger - DEBUG - Stored payment event for trace_id c39eee5e-e1f9-4a67-aadf-ff085917e430
+2024-10-03 12:16:11,821 - basicLogger - DEBUG - Stored parking status event for meter_id 61518
+2024-10-03 12:16:11,887 - basicLogger - DEBUG - Stored payment event for trace_id 655efbc9-33cf-4aab-ac32-0a392b030cb7
+2024-10-03 12:16:11,892 - basicLogger - DEBUG - Stored payment event for trace_id 4f83156d-708f-4661-81ce-5f799b5cc346
+2024-10-03 12:16:11,894 - basicLogger - DEBUG - Stored parking status event for meter_id 84913
+2024-10-03 12:16:11,940 - basicLogger - DEBUG - Stored parking status event for meter_id 39819
+2024-10-03 12:16:11,966 - basicLogger - DEBUG - Stored payment event for trace_id 68d0b6d2-2b43-4a2e-b7e4-4a2fc467a7c8
+2024-10-03 12:16:11,968 - basicLogger - DEBUG - Stored parking status event for meter_id 35276
+2024-10-03 12:16:11,988 - basicLogger - DEBUG - Stored payment event for trace_id 000c3bf8-ff48-4d13-977d-7bf1e6bac687
+2024-10-03 12:16:12,020 - basicLogger - DEBUG - Stored payment event for trace_id a2d74b79-2132-408b-90d7-4e59d642a0b9
+2024-10-03 12:16:12,057 - basicLogger - DEBUG - Stored parking status event for meter_id 79468
+2024-10-03 12:16:12,091 - basicLogger - DEBUG - Stored payment event for trace_id 76bd2db7-d24b-4c24-b0d7-fc56fe6f428d
