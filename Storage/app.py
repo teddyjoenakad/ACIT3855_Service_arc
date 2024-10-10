@@ -1,6 +1,6 @@
 import connexion
 from connexion import NoContent
-from sqlalchemy import create_engine
+from sqlalchemy import and_, create_engine
 from sqlalchemy.orm import sessionmaker
 from base import Base
 from parking_status import ParkingStatus
@@ -71,7 +71,9 @@ def get_parking_status(start_timestamp, end_timestamp):
     session = DB_SESSION()
     start_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
     end_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
-    readings = session.query(ParkingStatus).filter(ParkingStatus.timestamp.between(start_datetime, end_datetime))
+    readings = session.query(ParkingStatus).filter(
+        and_(ParkingStatus.date_created >= start_datetime,
+             ParkingStatus.date_created < end_datetime))
 
     results_list = [reading.to_dict() for reading in readings]
     session.close()
@@ -84,7 +86,9 @@ def get_payment_events(start_timestamp, end_timestamp):
     session = DB_SESSION()
     start_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
     end_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
-    readings = session.query(PaymentEvent).filter(PaymentEvent.timestamp.between(start_datetime, end_datetime))
+    readings = session.query(PaymentEvent).filter(
+        and_(PaymentEvent.date_created >= start_datetime,
+             PaymentEvent.date_created < end_datetime))
 
     results_list = [reading.to_dict() for reading in readings]
     session.close()

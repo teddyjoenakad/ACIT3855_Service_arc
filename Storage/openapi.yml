@@ -62,6 +62,14 @@ paths:
             type: string
             format: date-time
             example: '2024-01-02T00:00:00Z'
+        - name: timestamp
+          in: query
+          description: Specific timestamp for the parking event
+          required: false
+          schema:
+            type: string
+            format: date-time
+            example: '2024-08-29T09:12:00Z'
       responses:
         '200':
           description: Successfully returned a list of parking status events
@@ -137,6 +145,14 @@ paths:
             type: string
             format: date-time
             example: '2024-01-02T00:00:00Z'
+        - name: timestamp
+          in: query
+          description: Specific timestamp for the payment event
+          required: false
+          schema:
+            type: string
+            format: date-time
+            example: '2024-08-29T12:09:33Z'
       responses:
         '200':
           description: Successfully returned a list of payment events

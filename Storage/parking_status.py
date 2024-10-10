@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy import Column, Integer, String, DateTime, Boolean
 from sqlalchemy.sql.functions import now
 from base import Base
 
@@ -10,7 +10,7 @@ class ParkingStatus(Base):
     id = Column(Integer, primary_key=True)
     meter_id = Column(String, nullable=False)
     device_id = Column(String, nullable=False)
-    status = Column(String, nullable=False)
+    status = Column(Boolean, nullable=False)
     spot_number = Column(Integer, nullable=False)
     timestamp = Column(String, nullable=False)
     date_created = Column(DateTime, nullable=False)

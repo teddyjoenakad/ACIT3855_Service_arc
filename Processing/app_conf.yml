@@ -1,7 +1,8 @@
 version: 1
 datastore:
-  user: root
-  password: password
-  hostname: localhost
-  port: 3306
-  db: parking_events
+  filename: data.json
+scheduler:
+  period_sec: 5
+eventstore:
+  parking: http://localhost:8090/parking
+  payment: http://localhost:8090/payment
