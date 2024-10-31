@@ -7,6 +7,8 @@ import yaml
 import logging
 import logging.config
 import uuid
+from pykafka import KafkaClient
+
 
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -36,11 +38,21 @@ def log_data(event, event_type):
         logger.error(f'Unknown event type: {event_type}')
         return None, 400
 
-    response = requests.post(url, headers=header, data=body)
+    client = KafkaClient(hosts=f"{app_config['events']['hostname']}:{app_config['events']['port']}")
+    topic = client.topics[str.encode(app_config['events']['topic'])]
+    producer = topic.get_sync_producer()
+    
+    msg = {
+        "type": event_type,
+        "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+        "payload": event
+    }
+    msg_str = json.dumps(msg)
+    producer.produce(msg_str.encode('utf-8'))
     
     logger.info(f'Returned event {event_type} response (Id: {trace_id}) with status {response.status_code}')
     
-    return response.text, response.status_code
+    return msg_str, 201
 
 def parking_status(body):
     res = log_data(body, "parking_status")

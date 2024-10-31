@@ -3,3 +3,7 @@ eventstore1:
   url: http://localhost:8090/parking
 eventstore2:
   url: http://localhost:8090/payment
+events:
+hostname: acit3855-kafka2.westus.cloudapp.azure.com
+port: 9092
+topic: events

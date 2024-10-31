@@ -33,6 +33,8 @@ DB_ENGINE = create_engine(f'mysql+pymysql://{user}:{password}@{hostname}:{port}/
 Base.metadata.bind = DB_ENGINE
 DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
+logger.info(f"connecting to DB. Hostname: {hostname}, Port: {port}")
+
 def parking_status(body):
     session = DB_SESSION()
     ps = ParkingStatus(
