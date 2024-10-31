@@ -12,39 +12,21 @@ paths:
       operationId: app.get_parking_status
       description: Returns a list of parking status events
       parameters:
-        - name: start_timestamp
+        - name: index
           in: query
-          description: Start of the timestamp range
+          description: The specific index of the payment event
           required: true
           schema:
-            type: string
-            format: date-time
-            example: '2024-01-01T00:00:00Z'
-        - name: end_timestamp
-          in: query
-          description: End of the timestamp range
-          required: true
-          schema:
-            type: string
-            format: date-time
-            example: '2024-01-02T00:00:00Z'
-        - name: timestamp
-          in: query
-          description: Specific timestamp for the parking event
-          required: false
-          schema:
-            type: string
-            format: date-time
-            example: '2024-08-29T09:12:00Z'
+            type: integer
+            example: 0
       responses:
         '200':
           description: Successfully returned a list of parking status events
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/ParkingStatusEvent'
+                type: object
+                $ref: '#/components/schemas/ParkingStatusEvent'
         '400':
           description: Invalid request
           content:
@@ -72,39 +54,21 @@ paths:
       operationId: app.get_payment_events
       description: Returns a list of payment events
       parameters:
-        - name: start_timestamp
+        - name: index
           in: query
-          description: Start of the timestamp range
+          description: The specific index of the payment event
           required: true
           schema:
-            type: string
-            format: date-time
-            example: '2024-01-01T00:00:00Z'
-        - name: end_timestamp
-          in: query
-          description: End of the timestamp range
-          required: true
-          schema:
-            type: string
-            format: date-time
-            example: '2024-01-02T00:00:00Z'
-        - name: timestamp
-          in: query
-          description: Specific timestamp for the payment event
-          required: false
-          schema:
-            type: string
-            format: date-time
-            example: '2024-08-29T12:09:33Z'
+            type: integer
+            example: 0
       responses:
         '200':
           description: Successfully returned a list of payment events
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/PaymentEvent'
+                type: object
+                $ref: '#/components/schemas/PaymentEvent'
         '400':
           description: Invalid request
           content:
@@ -138,26 +102,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/EventStats'
-        '400':
-          description: Invalid request
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  message:
-                    type: string
-                    example: Invalid request message
-        '404':
-          description: Not Found
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  message:
-                    type: string
-                    example: Not Found
+
 
 components:
   schemas:

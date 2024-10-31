@@ -22,21 +22,10 @@ logger = logging.getLogger('basicLogger')
 def log_data(event, event_type):
     header = {"Content-Type": "application/json"}
     
-    trace_id = str(uuid.uuid4())  # Generate a unique trace ID
+    trace_id = str(uuid.uuid4())
     event["trace_id"] = trace_id
-    body = json.dumps(event)
-
-    # header['trace_id'] = trace_id
 
     logger.info(f'Received event {event_type} request with a trace id of {trace_id}')
-    
-    if event_type == "parking_status":
-        url = app_config['eventstore1']['url']
-    elif event_type == "payment":
-        url = app_config['eventstore2']['url']
-    else:
-        logger.error(f'Unknown event type: {event_type}')
-        return None, 400
 
     client = KafkaClient(hosts=f"{app_config['events']['hostname']}:{app_config['events']['port']}")
     topic = client.topics[str.encode(app_config['events']['topic'])]
@@ -50,8 +39,8 @@ def log_data(event, event_type):
     msg_str = json.dumps(msg)
     producer.produce(msg_str.encode('utf-8'))
     
-    logger.info(f'Returned event {event_type} response (Id: {trace_id}) with status {response.status_code}')
-    
+    logger.info(f'Returned event {event_type} response (Id: {trace_id}) with status 201')
+
     return msg_str, 201
 
 def parking_status(body):

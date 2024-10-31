@@ -1,15 +1,318 @@
-2024-10-30 22:29:32,032 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:30:18,251 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:30:18,603 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:35:50,423 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:35:50,725 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:35:58,399 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:35:58,666 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:37:56,199 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:37:56,469 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:40:49,776 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:40:50,119 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:41:08,823 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:41:09,102 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:42:40,387 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
-2024-10-30 22:42:40,651 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
+2024-10-31 16:06:46,729 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
+2024-10-31 16:06:46,989 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
+2024-10-31 16:06:47,852 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:03', 'payload': {'meter_id': 51060, 'device_id': '82346372-80ad-4ff4-8038-14861aabad3c', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 19, 'trace_id': '97847504-7af7-4e00-8821-9e47078008da'}}
+2024-10-31 16:06:47,853 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:48,901 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 97847504-7af7-4e00-8821-9e47078008da
+2024-10-31 16:06:48,967 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:03', 'payload': {'meter_id': 86767, 'device_id': '44f12151-18ca-49da-a49c-aada653a275b', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 81, 'trace_id': 'fc295890-568a-4424-aed0-d765f1d6cecf'}}
+2024-10-31 16:06:48,968 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:49,282 - basicLogger - DEBUG - Stored event parking_status request with a trace id of fc295890-568a-4424-aed0-d765f1d6cecf
+2024-10-31 16:06:49,323 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:03', 'payload': {'meter_id': 96036, 'device_id': 'cf8807ec-684a-4071-b291-ec012f6cac47', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 18, 'trace_id': 'ce6606a9-38ec-4d6e-b580-e1a093163a9a'}}
+2024-10-31 16:06:49,324 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:49,418 - basicLogger - DEBUG - Stored event parking_status request with a trace id of ce6606a9-38ec-4d6e-b580-e1a093163a9a
+2024-10-31 16:06:49,454 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:04', 'payload': {'meter_id': 63310, 'device_id': 'bdf43f97-a7b9-408a-8d03-1e3d9e8ecbf7', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 95, 'trace_id': 'b01876f5-c1e0-4bc9-bb94-58786035ddab'}}
+2024-10-31 16:06:49,455 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:49,548 - basicLogger - DEBUG - Stored event parking_status request with a trace id of b01876f5-c1e0-4bc9-bb94-58786035ddab
+2024-10-31 16:06:49,580 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:04', 'payload': {'meter_id': 18065, 'device_id': '5933dcf0-0054-4b6d-b2a9-e8f12ac540db', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 45, 'trace_id': 'a10945fb-f3a8-4565-b401-22e8b36198a3'}}
+2024-10-31 16:06:49,582 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:49,675 - basicLogger - DEBUG - Stored event parking_status request with a trace id of a10945fb-f3a8-4565-b401-22e8b36198a3
+2024-10-31 16:06:49,706 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:09', 'payload': {'meter_id': 33944, 'device_id': 'b806584c-6381-460d-b17b-7c0b0827244a', 'amount': 91, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 42, 'trace_id': '9c64abaa-d78f-4a80-806b-b0d1a69b266f'}}
+2024-10-31 16:06:49,706 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:49,707 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:49,840 - basicLogger - DEBUG - Stored event payment request with a trace id of 9c64abaa-d78f-4a80-806b-b0d1a69b266f
+2024-10-31 16:06:49,870 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:09', 'payload': {'meter_id': 15389, 'device_id': 'bc64ac3a-5a1b-4e4f-96d5-ff67e344955c', 'amount': 29, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 82, 'trace_id': 'ed5d845e-15ab-4b0e-999b-ea337bc91f2e'}}
+2024-10-31 16:06:49,871 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:49,871 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:49,965 - basicLogger - DEBUG - Stored event payment request with a trace id of ed5d845e-15ab-4b0e-999b-ea337bc91f2e
+2024-10-31 16:06:49,996 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:09', 'payload': {'meter_id': 17053, 'device_id': '53688995-3bd8-4e34-9661-8ce368537bae', 'amount': 91, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 34, 'trace_id': '8d20f734-105d-426a-9fab-925262b3d47e'}}
+2024-10-31 16:06:49,997 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:49,997 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:50,086 - basicLogger - DEBUG - Stored event payment request with a trace id of 8d20f734-105d-426a-9fab-925262b3d47e
+2024-10-31 16:06:50,116 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:09', 'payload': {'meter_id': 75050, 'device_id': '035b9487-c58c-4aeb-a266-5129978921e3', 'amount': 26, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 48, 'trace_id': '0619602b-0411-4386-bfa7-3d485575d3e0'}}
+2024-10-31 16:06:50,116 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:50,117 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:50,206 - basicLogger - DEBUG - Stored event payment request with a trace id of 0619602b-0411-4386-bfa7-3d485575d3e0
+2024-10-31 16:06:50,236 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:09', 'payload': {'meter_id': 90323, 'device_id': '9824ffe1-83ab-4e4a-b8c2-1d919e9a684b', 'amount': 44, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 62, 'trace_id': '001bdcb7-aa1a-430f-ad00-8b32e0b42542'}}
+2024-10-31 16:06:50,237 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:50,237 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:50,333 - basicLogger - DEBUG - Stored event payment request with a trace id of 001bdcb7-aa1a-430f-ad00-8b32e0b42542
+2024-10-31 16:06:50,363 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:14', 'payload': {'meter_id': 92368, 'device_id': '7dfa9114-583a-47c1-b9a3-8cd7aad0b595', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 66, 'trace_id': '367c43a5-667f-4827-84b4-47c7bc0d7321'}}
+2024-10-31 16:06:50,363 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:50,454 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 367c43a5-667f-4827-84b4-47c7bc0d7321
+2024-10-31 16:06:50,483 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:14', 'payload': {'meter_id': 10311, 'device_id': 'c5c6b889-95ca-4196-8d28-bada81ea402b', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 86, 'trace_id': '7538a7eb-8cda-4c14-8460-03e387309a55'}}
+2024-10-31 16:06:50,484 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:50,585 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 7538a7eb-8cda-4c14-8460-03e387309a55
+2024-10-31 16:06:50,614 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:14', 'payload': {'meter_id': 90404, 'device_id': '5d6449d7-0c20-47b5-92ec-c59d7e4fe0ad', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 60, 'trace_id': '68383c7e-5f7f-46cc-8ab1-dc8da8f9d0fc'}}
+2024-10-31 16:06:50,615 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:50,703 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 68383c7e-5f7f-46cc-8ab1-dc8da8f9d0fc
+2024-10-31 16:06:50,733 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:14', 'payload': {'meter_id': 20788, 'device_id': 'ef37fe3a-3f43-4d32-995f-491fdc16a686', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 87, 'trace_id': 'a284d925-c327-4b22-b495-76e1aef76889'}}
+2024-10-31 16:06:50,734 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:50,824 - basicLogger - DEBUG - Stored event parking_status request with a trace id of a284d925-c327-4b22-b495-76e1aef76889
+2024-10-31 16:06:50,854 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:15', 'payload': {'meter_id': 67555, 'device_id': '27009193-80bb-4b1e-b9f8-b7f750fb5264', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 13, 'trace_id': '54f40e8e-49b6-4703-982e-c5c392f7fa3f'}}
+2024-10-31 16:06:50,854 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:50,946 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 54f40e8e-49b6-4703-982e-c5c392f7fa3f
+2024-10-31 16:06:50,975 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:20', 'payload': {'meter_id': 57198, 'device_id': 'c720f17e-8915-4a2b-95d1-75663b7fd0ec', 'amount': 80, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 89, 'trace_id': 'fd59e384-a2f4-419f-a731-265588072976'}}
+2024-10-31 16:06:50,976 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:50,976 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:51,063 - basicLogger - DEBUG - Stored event payment request with a trace id of fd59e384-a2f4-419f-a731-265588072976
+2024-10-31 16:06:51,097 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:20', 'payload': {'meter_id': 92119, 'device_id': 'd736d297-6711-4177-b5ab-68b20b49957c', 'amount': 93, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 60, 'trace_id': '68d2902e-11a1-4e7d-96e5-aecd44908670'}}
+2024-10-31 16:06:51,098 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:51,098 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:51,186 - basicLogger - DEBUG - Stored event payment request with a trace id of 68d2902e-11a1-4e7d-96e5-aecd44908670
+2024-10-31 16:06:51,216 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:20', 'payload': {'meter_id': 65041, 'device_id': '86d87547-dda9-458a-afa3-720f6f4659c7', 'amount': 86, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 68, 'trace_id': 'e0ce8726-ce2c-4b1c-8503-1e2dad490bbf'}}
+2024-10-31 16:06:51,216 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:51,217 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:51,308 - basicLogger - DEBUG - Stored event payment request with a trace id of e0ce8726-ce2c-4b1c-8503-1e2dad490bbf
+2024-10-31 16:06:51,338 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:20', 'payload': {'meter_id': 82672, 'device_id': '7ffc78b3-5889-4210-9ba7-9d456662c3d5', 'amount': 1, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 112, 'trace_id': 'bde57cfd-e5ef-4cdd-93a7-504c35226c83'}}
+2024-10-31 16:06:51,338 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:51,338 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:51,432 - basicLogger - DEBUG - Stored event payment request with a trace id of bde57cfd-e5ef-4cdd-93a7-504c35226c83
+2024-10-31 16:06:51,462 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:20', 'payload': {'meter_id': 63170, 'device_id': '2ae59958-a0e5-456b-a26b-3308e2849d76', 'amount': 24, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 32, 'trace_id': '62567dbf-ddf8-4d58-92c4-37bab373e297'}}
+2024-10-31 16:06:51,462 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:51,462 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:51,556 - basicLogger - DEBUG - Stored event payment request with a trace id of 62567dbf-ddf8-4d58-92c4-37bab373e297
+2024-10-31 16:06:51,586 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:25', 'payload': {'meter_id': 94066, 'device_id': '24e938de-d36e-4d60-9cbd-671b0eba008a', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 96, 'trace_id': '10f7718a-6e81-457a-8cac-f9d57afc6ca4'}}
+2024-10-31 16:06:51,587 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:51,675 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 10f7718a-6e81-457a-8cac-f9d57afc6ca4
+2024-10-31 16:06:51,705 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:25', 'payload': {'meter_id': 58452, 'device_id': '91c33595-b864-4299-affd-b4d4c88897fc', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 6, 'trace_id': '11c80c08-0ba4-4b1e-adc4-882d6a54841e'}}
+2024-10-31 16:06:51,706 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:51,799 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 11c80c08-0ba4-4b1e-adc4-882d6a54841e
+2024-10-31 16:06:51,830 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:25', 'payload': {'meter_id': 64933, 'device_id': '111ddc63-466f-4add-9543-fa68352c0c1b', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 84, 'trace_id': '3c704844-76f7-4d46-a104-a23cb184a03d'}}
+2024-10-31 16:06:51,831 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:51,924 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 3c704844-76f7-4d46-a104-a23cb184a03d
+2024-10-31 16:06:51,955 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:25', 'payload': {'meter_id': 87671, 'device_id': '1c73bb11-3ce5-4a64-9c6b-afe00a8663ac', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 88, 'trace_id': 'baa8f7ae-265f-4b05-8072-c1d55685884a'}}
+2024-10-31 16:06:51,955 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,048 - basicLogger - DEBUG - Stored event parking_status request with a trace id of baa8f7ae-265f-4b05-8072-c1d55685884a
+2024-10-31 16:06:52,077 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:25', 'payload': {'meter_id': 27395, 'device_id': '9663a9ff-9a42-40af-bc8c-21b5d5401944', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 38, 'trace_id': '1e6ee7b5-88a0-4b22-9d53-74ed5f3584a9'}}
+2024-10-31 16:06:52,078 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,171 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 1e6ee7b5-88a0-4b22-9d53-74ed5f3584a9
+2024-10-31 16:06:52,201 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:25', 'payload': {'meter_id': 90785, 'device_id': 'de6ef61b-1b79-46ad-a8cd-8d90139ad9f7', 'amount': 69, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 37, 'trace_id': 'e9d6ade2-c895-48ff-92d8-43fae5961f62'}}
+2024-10-31 16:06:52,201 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,201 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,290 - basicLogger - DEBUG - Stored event payment request with a trace id of e9d6ade2-c895-48ff-92d8-43fae5961f62
+2024-10-31 16:06:52,320 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:31', 'payload': {'meter_id': 97640, 'device_id': 'cac36ec6-1314-4593-b369-b965a26536ab', 'amount': 53, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 106, 'trace_id': '3e26b4eb-9bb2-444e-ac74-544dba29f8df'}}
+2024-10-31 16:06:52,320 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,320 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,416 - basicLogger - DEBUG - Stored event payment request with a trace id of 3e26b4eb-9bb2-444e-ac74-544dba29f8df
+2024-10-31 16:06:52,447 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:31', 'payload': {'meter_id': 66934, 'device_id': '26fbb625-1aee-4cac-9d89-fe4a8818ce96', 'amount': 14, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 49, 'trace_id': '7df99a5a-7281-4e27-861f-1d1828974aab'}}
+2024-10-31 16:06:52,447 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,448 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,543 - basicLogger - DEBUG - Stored event payment request with a trace id of 7df99a5a-7281-4e27-861f-1d1828974aab
+2024-10-31 16:06:52,573 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:31', 'payload': {'meter_id': 86080, 'device_id': '3a9bd628-d119-42ee-97b9-87ca1d7fcdfc', 'amount': 13, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 42, 'trace_id': '733614d0-18f1-4977-bd02-853e21a55859'}}
+2024-10-31 16:06:52,573 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,574 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,665 - basicLogger - DEBUG - Stored event payment request with a trace id of 733614d0-18f1-4977-bd02-853e21a55859
+2024-10-31 16:06:52,695 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:31', 'payload': {'meter_id': 15182, 'device_id': '73f5e7ac-f37b-41f2-8828-4ac5eac6585d', 'amount': 36, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 64, 'trace_id': 'a167105d-9acb-4cbb-9e07-4dfe9fbfd3df'}}
+2024-10-31 16:06:52,695 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,696 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,788 - basicLogger - DEBUG - Stored event payment request with a trace id of a167105d-9acb-4cbb-9e07-4dfe9fbfd3df
+2024-10-31 16:06:52,818 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:31', 'payload': {'meter_id': 28812, 'device_id': '3b3e5ae1-9904-4a0a-8011-569ffa51c5bf', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 85, 'trace_id': 'b4ba7a53-9480-49c7-ae29-e4e85685b4f8'}}
+2024-10-31 16:06:52,818 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:52,907 - basicLogger - DEBUG - Stored event parking_status request with a trace id of b4ba7a53-9480-49c7-ae29-e4e85685b4f8
+2024-10-31 16:06:52,937 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:36', 'payload': {'meter_id': 37776, 'device_id': '1acdcde4-b4e0-4a49-b6bd-f8ea98bb2471', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 25, 'trace_id': '8559c13a-d5a9-4b09-a7e7-d88a95dfb66d'}}
+2024-10-31 16:06:52,937 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,028 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 8559c13a-d5a9-4b09-a7e7-d88a95dfb66d
+2024-10-31 16:06:53,057 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:36', 'payload': {'meter_id': 50814, 'device_id': '99397d31-3b10-445c-a9c9-6846b96577a6', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 30, 'trace_id': '81898741-e766-4414-920d-d8b35c7cf3bd'}}
+2024-10-31 16:06:53,058 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,145 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 81898741-e766-4414-920d-d8b35c7cf3bd
+2024-10-31 16:06:53,176 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:36', 'payload': {'meter_id': 42329, 'device_id': '68247bc1-e970-4f02-8d37-c1d4817c2f9e', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 84, 'trace_id': '8af48649-09ce-4a3d-9e24-d0f2dd94deb7'}}
+2024-10-31 16:06:53,176 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,265 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 8af48649-09ce-4a3d-9e24-d0f2dd94deb7
+2024-10-31 16:06:53,298 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:36', 'payload': {'meter_id': 29138, 'device_id': 'b9615bf6-12a2-498c-b2a7-b462161a17da', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 99, 'trace_id': '489470c3-6e79-4cc0-aabf-2967e7f87c0a'}}
+2024-10-31 16:06:53,298 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,388 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 489470c3-6e79-4cc0-aabf-2967e7f87c0a
+2024-10-31 16:06:53,418 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:36', 'payload': {'meter_id': 21481, 'device_id': '921e11e4-6440-4f4e-9b13-4f87cb471c3d', 'amount': 39, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 112, 'trace_id': 'd728ee6d-9c0f-41b2-939a-64c5f25ec108'}}
+2024-10-31 16:06:53,419 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,419 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,518 - basicLogger - DEBUG - Stored event payment request with a trace id of d728ee6d-9c0f-41b2-939a-64c5f25ec108
+2024-10-31 16:06:53,548 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:42', 'payload': {'meter_id': 55445, 'device_id': 'ba69badb-8341-4986-91a6-24185602d4a6', 'amount': 74, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 119, 'trace_id': '6e62d0d4-993b-4abe-b24d-3383c6461566'}}
+2024-10-31 16:06:53,549 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,549 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,640 - basicLogger - DEBUG - Stored event payment request with a trace id of 6e62d0d4-993b-4abe-b24d-3383c6461566
+2024-10-31 16:06:53,669 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:42', 'payload': {'meter_id': 63853, 'device_id': 'e9999cc6-b649-456c-bf5e-8f91f3b80010', 'amount': 40, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 93, 'trace_id': '7769d3b0-2e32-4dcd-9c13-91e9d604813c'}}
+2024-10-31 16:06:53,670 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,670 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,761 - basicLogger - DEBUG - Stored event payment request with a trace id of 7769d3b0-2e32-4dcd-9c13-91e9d604813c
+2024-10-31 16:06:53,792 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:42', 'payload': {'meter_id': 57598, 'device_id': 'a082a3f6-5b15-467f-9abe-5d550b4b3e7f', 'amount': 15, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 49, 'trace_id': '2b447e6f-3074-4610-8242-94bec09a1a72'}}
+2024-10-31 16:06:53,793 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,793 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,882 - basicLogger - DEBUG - Stored event payment request with a trace id of 2b447e6f-3074-4610-8242-94bec09a1a72
+2024-10-31 16:06:53,912 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:42', 'payload': {'meter_id': 35553, 'device_id': '8153c1a2-0f4a-410e-9bc4-5dfb41915956', 'amount': 88, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 112, 'trace_id': '32416b8c-5b6b-4172-99e2-7bb829265ebd'}}
+2024-10-31 16:06:53,913 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:53,923 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:54,012 - basicLogger - DEBUG - Stored event payment request with a trace id of 32416b8c-5b6b-4172-99e2-7bb829265ebd
+2024-10-31 16:06:54,041 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:42', 'payload': {'meter_id': 33001, 'device_id': '96e21d5b-4ec7-4f9f-9862-3ae5371c2ab9', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 15, 'trace_id': 'b2c57054-da7a-4fa0-94c5-ba66fbc35798'}}
+2024-10-31 16:06:54,042 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:54,132 - basicLogger - DEBUG - Stored event parking_status request with a trace id of b2c57054-da7a-4fa0-94c5-ba66fbc35798
+2024-10-31 16:06:54,164 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:47', 'payload': {'meter_id': 26912, 'device_id': '713b4291-6bfa-4546-af30-ab8dbcf278e6', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 56, 'trace_id': '59205fe4-cad6-4bf1-8b0c-b2fb3f7d2ed8'}}
+2024-10-31 16:06:54,165 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:54,259 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 59205fe4-cad6-4bf1-8b0c-b2fb3f7d2ed8
+2024-10-31 16:06:54,290 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:47', 'payload': {'meter_id': 89495, 'device_id': '4babf0a6-1ac4-4611-90e9-735e4aa8548b', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 60, 'trace_id': '96937a0e-f759-48d7-81ad-8c6153568993'}}
+2024-10-31 16:06:54,291 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:54,382 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 96937a0e-f759-48d7-81ad-8c6153568993
+2024-10-31 16:06:54,411 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:47', 'payload': {'meter_id': 61619, 'device_id': 'c141a9d9-14f7-4fbf-bd96-1203aa02e92f', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 92, 'trace_id': 'bd31f0b5-573d-4190-8f78-a7db21e7b6fa'}}
+2024-10-31 16:06:54,412 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:54,502 - basicLogger - DEBUG - Stored event parking_status request with a trace id of bd31f0b5-573d-4190-8f78-a7db21e7b6fa
+2024-10-31 16:06:54,546 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:48', 'payload': {'meter_id': 96563, 'device_id': '7e4a72f6-739e-48f8-8582-f3ee315a85b1', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 53, 'trace_id': '94f186ed-184d-414f-9495-9200aced8336'}}
+2024-10-31 16:06:54,547 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:54,640 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 94f186ed-184d-414f-9495-9200aced8336
+2024-10-31 16:06:54,670 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:48', 'payload': {'meter_id': 93106, 'device_id': '0c04c453-c9de-4375-a95a-d919d3e3a43b', 'amount': 51, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 108, 'trace_id': '91237017-f305-4e56-ab4c-928c0041752f'}}
+2024-10-31 16:06:54,670 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:54,670 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:54,759 - basicLogger - DEBUG - Stored event payment request with a trace id of 91237017-f305-4e56-ab4c-928c0041752f
+2024-10-31 16:06:54,789 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:53', 'payload': {'meter_id': 50652, 'device_id': '465dded4-b807-4abf-a4ee-b62729c57b27', 'amount': 20, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 71, 'trace_id': '43a01e5f-cefe-4431-85df-a14900ea3eb8'}}
+2024-10-31 16:06:54,789 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:54,789 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:54,879 - basicLogger - DEBUG - Stored event payment request with a trace id of 43a01e5f-cefe-4431-85df-a14900ea3eb8
+2024-10-31 16:06:54,909 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:53', 'payload': {'meter_id': 74837, 'device_id': 'cb904d00-73e3-48c9-8ff2-b60b43da1b98', 'amount': 52, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 88, 'trace_id': '998dd7b2-52cb-455c-bb9e-5771dbfbe5bc'}}
+2024-10-31 16:06:54,910 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:54,910 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:55,001 - basicLogger - DEBUG - Stored event payment request with a trace id of 998dd7b2-52cb-455c-bb9e-5771dbfbe5bc
+2024-10-31 16:06:55,032 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:53', 'payload': {'meter_id': 70649, 'device_id': '79b6afe3-b4e9-4de0-990f-b293766bd8b9', 'amount': 87, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 46, 'trace_id': 'a3466e4a-c004-4049-87d6-43a418e0c924'}}
+2024-10-31 16:06:55,032 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:06:55,033 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:12,755 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
+2024-10-31 16:07:13,009 - basicLogger - INFO - connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com, Port: 3306
+2024-10-31 16:07:13,859 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:53', 'payload': {'meter_id': 70649, 'device_id': '79b6afe3-b4e9-4de0-990f-b293766bd8b9', 'amount': 87, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 46, 'trace_id': 'a3466e4a-c004-4049-87d6-43a418e0c924'}}
+2024-10-31 16:07:13,859 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:13,860 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:15,290 - basicLogger - DEBUG - Stored event payment request with a trace id of a3466e4a-c004-4049-87d6-43a418e0c924
+2024-10-31 16:07:15,355 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:53', 'payload': {'meter_id': 43898, 'device_id': '36b1b065-153d-4759-84d8-4eb829137fc1', 'amount': 55, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 41, 'trace_id': '51400c90-1296-4f99-a000-eacc8bcb2a46'}}
+2024-10-31 16:07:15,356 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:15,357 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:15,448 - basicLogger - DEBUG - Stored event payment request with a trace id of 51400c90-1296-4f99-a000-eacc8bcb2a46
+2024-10-31 16:07:15,478 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:53', 'payload': {'meter_id': 79105, 'device_id': '2fe3db88-c6e1-4590-a5a0-d3de0c44506b', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 75, 'trace_id': 'c9831cd1-38b5-4333-982a-e912be3f857e'}}
+2024-10-31 16:07:15,478 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:15,576 - basicLogger - DEBUG - Stored event parking_status request with a trace id of c9831cd1-38b5-4333-982a-e912be3f857e
+2024-10-31 16:07:15,621 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:58', 'payload': {'meter_id': 65548, 'device_id': 'cf169ebc-882e-49a3-9872-4f887aba2d48', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 1, 'trace_id': '0f10144a-8e2f-4a41-8e8e-67f35776ce34'}}
+2024-10-31 16:07:15,621 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:15,711 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 0f10144a-8e2f-4a41-8e8e-67f35776ce34
+2024-10-31 16:07:15,741 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:58', 'payload': {'meter_id': 75879, 'device_id': 'c17aefdd-536a-4298-a55e-598b24365b81', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 79, 'trace_id': '8f5dceee-e422-4094-b264-06cc8bcadee2'}}
+2024-10-31 16:07:15,741 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:15,832 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 8f5dceee-e422-4094-b264-06cc8bcadee2
+2024-10-31 16:07:15,862 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:58', 'payload': {'meter_id': 82232, 'device_id': 'c7c5a8a1-ba5e-429e-880a-df0fb40e5488', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 34, 'trace_id': 'c1777126-ae85-4d23-b91f-ae3b4dfeb88c'}}
+2024-10-31 16:07:15,863 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:15,954 - basicLogger - DEBUG - Stored event parking_status request with a trace id of c1777126-ae85-4d23-b91f-ae3b4dfeb88c
+2024-10-31 16:07:15,984 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:05:58', 'payload': {'meter_id': 72328, 'device_id': '3517b500-6e22-42ca-8566-7716a4154147', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 48, 'trace_id': '9e457315-3693-47d0-a502-e25f914e380a'}}
+2024-10-31 16:07:15,984 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,073 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 9e457315-3693-47d0-a502-e25f914e380a
+2024-10-31 16:07:16,104 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:05:58', 'payload': {'meter_id': 70684, 'device_id': 'f20c3709-5333-4106-8bd0-0b36689f2df2', 'amount': 80, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 44, 'trace_id': 'e821978c-1c44-4120-a530-a9786b5eaf1c'}}
+2024-10-31 16:07:16,104 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,104 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,195 - basicLogger - DEBUG - Stored event payment request with a trace id of e821978c-1c44-4120-a530-a9786b5eaf1c
+2024-10-31 16:07:16,225 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:04', 'payload': {'meter_id': 67498, 'device_id': 'aa735b19-48da-44c7-afa6-26d44915543a', 'amount': 70, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 88, 'trace_id': 'c05bf929-2347-4bfe-bc13-903cc8f118da'}}
+2024-10-31 16:07:16,225 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,226 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,315 - basicLogger - DEBUG - Stored event payment request with a trace id of c05bf929-2347-4bfe-bc13-903cc8f118da
+2024-10-31 16:07:16,345 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:04', 'payload': {'meter_id': 77403, 'device_id': 'b1ee411a-7765-49ef-b5d0-f1237b63c036', 'amount': 88, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 54, 'trace_id': 'cdce456e-633b-4357-a559-8c559ba2e6df'}}
+2024-10-31 16:07:16,346 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,346 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,434 - basicLogger - DEBUG - Stored event payment request with a trace id of cdce456e-633b-4357-a559-8c559ba2e6df
+2024-10-31 16:07:16,465 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:04', 'payload': {'meter_id': 84863, 'device_id': '1ace53b6-5c86-44de-b463-dc0bd176e302', 'amount': 50, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 100, 'trace_id': '8d3b2de3-684b-46b3-a956-1ed0e6baf61b'}}
+2024-10-31 16:07:16,466 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,466 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,556 - basicLogger - DEBUG - Stored event payment request with a trace id of 8d3b2de3-684b-46b3-a956-1ed0e6baf61b
+2024-10-31 16:07:16,587 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:04', 'payload': {'meter_id': 43359, 'device_id': '554eccae-336b-4c23-9961-3fbb1f64dd68', 'amount': 19, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 81, 'trace_id': '6cdcd03d-0c68-40f2-930d-0e789f3d9c0e'}}
+2024-10-31 16:07:16,588 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,588 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,688 - basicLogger - DEBUG - Stored event payment request with a trace id of 6cdcd03d-0c68-40f2-930d-0e789f3d9c0e
+2024-10-31 16:07:16,719 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:04', 'payload': {'meter_id': 62674, 'device_id': '15f8d7bb-4e7b-4fb9-b141-9bfca142599a', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 99, 'trace_id': '4dc652a5-35ef-405a-ae80-8af45defd0fc'}}
+2024-10-31 16:07:16,719 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,811 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 4dc652a5-35ef-405a-ae80-8af45defd0fc
+2024-10-31 16:07:16,842 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:09', 'payload': {'meter_id': 30463, 'device_id': 'c81264c9-9986-495e-ba8d-073c335683e1', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 38, 'trace_id': '96fc44fe-b4fa-4d2b-ba07-acc8e900b761'}}
+2024-10-31 16:07:16,842 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:16,935 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 96fc44fe-b4fa-4d2b-ba07-acc8e900b761
+2024-10-31 16:07:16,965 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:09', 'payload': {'meter_id': 66502, 'device_id': 'a4aba508-7674-48d0-a6b6-cbbf636530a7', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 18, 'trace_id': 'bc8d7431-9a05-4bac-acfe-d176f8bba44f'}}
+2024-10-31 16:07:16,966 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,057 - basicLogger - DEBUG - Stored event parking_status request with a trace id of bc8d7431-9a05-4bac-acfe-d176f8bba44f
+2024-10-31 16:07:17,087 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:09', 'payload': {'meter_id': 16691, 'device_id': '0f473afd-c005-4925-9ad0-19d54b60ba76', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 84, 'trace_id': '114a4443-af7c-404e-b3db-99a8df0d7b1a'}}
+2024-10-31 16:07:17,088 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,179 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 114a4443-af7c-404e-b3db-99a8df0d7b1a
+2024-10-31 16:07:17,209 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:09', 'payload': {'meter_id': 92704, 'device_id': 'a4e85c5c-31b5-4ca0-b6dd-b1087b55a825', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 14, 'trace_id': 'b254e37c-bad8-44bc-95b7-072e87b47046'}}
+2024-10-31 16:07:17,209 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,300 - basicLogger - DEBUG - Stored event parking_status request with a trace id of b254e37c-bad8-44bc-95b7-072e87b47046
+2024-10-31 16:07:17,329 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:09', 'payload': {'meter_id': 13620, 'device_id': '3680fa70-2ac1-4ec8-9103-720f5211774a', 'amount': 54, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 80, 'trace_id': '91f0d5bb-1dd3-4ac9-9821-6c3e2fea5203'}}
+2024-10-31 16:07:17,330 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,330 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,423 - basicLogger - DEBUG - Stored event payment request with a trace id of 91f0d5bb-1dd3-4ac9-9821-6c3e2fea5203
+2024-10-31 16:07:17,454 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:14', 'payload': {'meter_id': 56424, 'device_id': 'fa086eca-e54c-41c4-ab8e-58143945d04d', 'amount': 67, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 93, 'trace_id': 'e919d53c-5d2e-4840-8b93-118b92add37b'}}
+2024-10-31 16:07:17,454 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,455 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,551 - basicLogger - DEBUG - Stored event payment request with a trace id of e919d53c-5d2e-4840-8b93-118b92add37b
+2024-10-31 16:07:17,582 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:14', 'payload': {'meter_id': 48806, 'device_id': '2ad17587-772f-42fc-ad92-90829313cf66', 'amount': 30, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 120, 'trace_id': 'c4e7eb6a-8312-4aa1-873f-0f8b31209a2e'}}
+2024-10-31 16:07:17,582 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,583 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,689 - basicLogger - DEBUG - Stored event payment request with a trace id of c4e7eb6a-8312-4aa1-873f-0f8b31209a2e
+2024-10-31 16:07:17,719 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:14', 'payload': {'meter_id': 78549, 'device_id': '3030f3cd-62da-47b8-b565-198322553464', 'amount': 75, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 101, 'trace_id': 'fab2c4be-cfe2-4760-a58f-f6961c87cfe7'}}
+2024-10-31 16:07:17,720 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,720 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,813 - basicLogger - DEBUG - Stored event payment request with a trace id of fab2c4be-cfe2-4760-a58f-f6961c87cfe7
+2024-10-31 16:07:17,843 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:15', 'payload': {'meter_id': 73913, 'device_id': 'ac8c2ed0-3c16-4d41-afd0-c295c2a6530f', 'amount': 44, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 35, 'trace_id': '8906b292-6326-4e93-82bd-d77fc5b3ddba'}}
+2024-10-31 16:07:17,844 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,844 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:17,938 - basicLogger - DEBUG - Stored event payment request with a trace id of 8906b292-6326-4e93-82bd-d77fc5b3ddba
+2024-10-31 16:07:17,967 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:15', 'payload': {'meter_id': 77595, 'device_id': 'c937d84d-2b04-4d0d-8072-60a17e6b2207', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 47, 'trace_id': '91c1d553-d3f3-45ad-ac15-8db3708ffed6'}}
+2024-10-31 16:07:17,967 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:18,056 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 91c1d553-d3f3-45ad-ac15-8db3708ffed6
+2024-10-31 16:07:18,087 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:20', 'payload': {'meter_id': 91278, 'device_id': '88625b22-6d1f-48dd-bd27-c61759417292', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 52, 'trace_id': '9139535c-b16b-477f-a5f3-9e58068fa6e3'}}
+2024-10-31 16:07:18,087 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:18,190 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 9139535c-b16b-477f-a5f3-9e58068fa6e3
+2024-10-31 16:07:18,220 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:20', 'payload': {'meter_id': 43192, 'device_id': 'e0ab168a-bb5f-467d-aed6-f1ed83b86b06', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 68, 'trace_id': 'ffd121b6-ee54-484f-8bb2-75bf091c312d'}}
+2024-10-31 16:07:18,221 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:18,314 - basicLogger - DEBUG - Stored event parking_status request with a trace id of ffd121b6-ee54-484f-8bb2-75bf091c312d
+2024-10-31 16:07:18,343 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:20', 'payload': {'meter_id': 64855, 'device_id': 'b21b180c-3079-428d-9028-1dfa229736a3', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 73, 'trace_id': 'ae7990bb-363f-4259-b70d-d21dd8816558'}}
+2024-10-31 16:07:18,344 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:18,434 - basicLogger - DEBUG - Stored event parking_status request with a trace id of ae7990bb-363f-4259-b70d-d21dd8816558
+2024-10-31 16:07:18,464 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:20', 'payload': {'meter_id': 58373, 'device_id': '8e4e8aec-539e-45aa-b694-360d2ba234e8', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 73, 'trace_id': '9ec26f30-6f8f-4f4d-9114-2e4d505035db'}}
+2024-10-31 16:07:18,465 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:18,563 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 9ec26f30-6f8f-4f4d-9114-2e4d505035db
+2024-10-31 16:07:18,594 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:20', 'payload': {'meter_id': 46056, 'device_id': '372579af-d957-4a0d-8360-4198357ba0ff', 'amount': 41, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 92, 'trace_id': '89f9a456-d530-45e7-b3c2-8a853108c1ee'}}
+2024-10-31 16:07:18,595 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:18,595 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:18,690 - basicLogger - DEBUG - Stored event payment request with a trace id of 89f9a456-d530-45e7-b3c2-8a853108c1ee
+2024-10-31 16:07:18,721 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:26', 'payload': {'meter_id': 35310, 'device_id': '7d3292d5-c369-43e3-889f-c241b5d6b782', 'amount': 96, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 87, 'trace_id': 'd96eaa09-ecb6-4ebe-b80e-8d1e3d7cc6c4'}}
+2024-10-31 16:07:18,721 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:18,722 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:18,811 - basicLogger - DEBUG - Stored event payment request with a trace id of d96eaa09-ecb6-4ebe-b80e-8d1e3d7cc6c4
+2024-10-31 16:07:18,842 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:25', 'payload': {'meter_id': 44843, 'device_id': '17cf3969-9986-43d6-9959-37d75de9cff6', 'amount': 53, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 107, 'trace_id': '3141b40f-bbe9-4063-9201-54bc64457b7b'}}
+2024-10-31 16:07:18,842 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:18,843 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:18,933 - basicLogger - DEBUG - Stored event payment request with a trace id of 3141b40f-bbe9-4063-9201-54bc64457b7b
+2024-10-31 16:07:18,966 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:26', 'payload': {'meter_id': 12555, 'device_id': '349822fc-c5e5-404e-b805-a72552cb7056', 'amount': 21, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 47, 'trace_id': '9c361eb0-061d-4156-bc77-17d97c079a6a'}}
+2024-10-31 16:07:18,966 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:18,967 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:19,059 - basicLogger - DEBUG - Stored event payment request with a trace id of 9c361eb0-061d-4156-bc77-17d97c079a6a
+2024-10-31 16:07:19,090 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:26', 'payload': {'meter_id': 35934, 'device_id': '10fb1dc0-ddfa-497c-bd88-243e56f2c705', 'amount': 71, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 78, 'trace_id': '2bca3e22-b5ab-4fba-a840-1f2bbe6cefc3'}}
+2024-10-31 16:07:19,091 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:19,092 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:19,180 - basicLogger - DEBUG - Stored event payment request with a trace id of 2bca3e22-b5ab-4fba-a840-1f2bbe6cefc3
+2024-10-31 16:07:19,216 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:26', 'payload': {'meter_id': 58017, 'device_id': 'ceb40690-a4bc-4c2a-8ecb-a6f23e33267e', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 92, 'trace_id': '924e3e88-7248-456a-b00f-3d778dbfdeb0'}}
+2024-10-31 16:07:19,217 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:19,309 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 924e3e88-7248-456a-b00f-3d778dbfdeb0
+2024-10-31 16:07:19,339 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:31', 'payload': {'meter_id': 96566, 'device_id': '83de4eb4-1b22-49ff-9d8f-4723c29dd228', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 77, 'trace_id': '853066be-7866-424d-82d6-493199a44cab'}}
+2024-10-31 16:07:19,340 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:19,434 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 853066be-7866-424d-82d6-493199a44cab
+2024-10-31 16:07:19,464 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:31', 'payload': {'meter_id': 55476, 'device_id': '27ce7013-a23f-427a-bcc2-14dddcc79d97', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 28, 'trace_id': '38d351a5-dd18-41c2-b95e-402598b8f4ca'}}
+2024-10-31 16:07:19,464 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:19,554 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 38d351a5-dd18-41c2-b95e-402598b8f4ca
+2024-10-31 16:07:19,584 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:31', 'payload': {'meter_id': 32425, 'device_id': 'a0f1a1ae-4d89-4cde-8191-5c169e1baf05', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 99, 'trace_id': '118d46d4-9159-4cf7-9dc5-08b68c733b93'}}
+2024-10-31 16:07:19,585 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:19,699 - basicLogger - DEBUG - Stored event parking_status request with a trace id of 118d46d4-9159-4cf7-9dc5-08b68c733b93
+2024-10-31 16:07:19,729 - basicLogger - INFO - Message: {'type': 'parking_status', 'datetime': '2024-10-31T16:06:31', 'payload': {'meter_id': 83308, 'device_id': '80de13b8-4e4f-4b08-bd01-55a637b80938', 'status': True, 'timestamp': '2024-08-29T12:09:33Z', 'spot_number': 12, 'trace_id': 'ca228c32-f3e2-472d-8aa4-4fa8070e72dc'}}
+2024-10-31 16:07:19,730 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:19,821 - basicLogger - DEBUG - Stored event parking_status request with a trace id of ca228c32-f3e2-472d-8aa4-4fa8070e72dc
+2024-10-31 16:07:19,851 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:31', 'payload': {'meter_id': 47336, 'device_id': '20caf16c-5562-491c-9e91-b9913b20a960', 'amount': 50, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 112, 'trace_id': '5788e282-febd-4210-8e8a-9bc3185c3c9a'}}
+2024-10-31 16:07:19,851 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:19,851 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:19,942 - basicLogger - DEBUG - Stored event payment request with a trace id of 5788e282-febd-4210-8e8a-9bc3185c3c9a
+2024-10-31 16:07:19,972 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:36', 'payload': {'meter_id': 61735, 'device_id': '2c2efea0-6148-4c26-9801-2390d084189e', 'amount': 8, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 62, 'trace_id': '630432c5-4bea-4797-a84a-78d3c0df4493'}}
+2024-10-31 16:07:19,973 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:19,973 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:20,063 - basicLogger - DEBUG - Stored event payment request with a trace id of 630432c5-4bea-4797-a84a-78d3c0df4493
+2024-10-31 16:07:20,093 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:36', 'payload': {'meter_id': 42657, 'device_id': 'a5d85ee9-ed10-4e25-a413-f402584ddd65', 'amount': 94, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 93, 'trace_id': '3b7df9bd-acf1-4ff4-96a2-a6e1bbb9220b'}}
+2024-10-31 16:07:20,093 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:20,094 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:20,184 - basicLogger - DEBUG - Stored event payment request with a trace id of 3b7df9bd-acf1-4ff4-96a2-a6e1bbb9220b
+2024-10-31 16:07:20,214 - basicLogger - INFO - Message: {'type': 'payment', 'datetime': '2024-10-31T16:06:36', 'payload': {'meter_id': 43436, 'device_id': '277f7939-36e9-4612-835f-ab179989e559', 'amount': 12, 'timestamp': '2024-08-29T12:09:33Z', 'duration': 95, 'trace_id': 'c5382643-aeb5-4f42-9a74-a7cb6c9f3344'}}
+2024-10-31 16:07:20,214 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:20,215 - basicLogger - INFO - Connecting to DB. Hostname: acit3855-kafka2.westus.cloudapp.azure.com:9092, Port: 3306
+2024-10-31 16:07:20,304 - basicLogger - DEBUG - Stored event payment request with a trace id of c5382643-aeb5-4f42-9a74-a7cb6c9f3344
